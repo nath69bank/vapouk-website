@@ -175,9 +175,9 @@
       overflow: hidden;
       background: var(--black);
       padding: 120px 2rem 80px;
-      background-image: url('https://images.unsplash.com/photo-1553273058-03f8445d9f2e?w=1920&q=80&auto=format&fit=crop');
+      background-image: url('https://images.unsplash.com/photo-1553273058-03f8445d9f2e?w=1920&q=85&auto=format&fit=crop');
       background-size: cover;
-      background-position: center right;
+      background-position: center 30%;
     }
 
     /* Dark gradient overlay so text stays crisp over photo */
@@ -640,13 +640,11 @@
     .brands-marquee-track {
       display: flex;
       gap: 0;
-      animation: marqueeScroll 28s linear infinite;
       will-change: transform;
     }
 
     .brands-marquee-row:nth-child(2) .brands-marquee-track {
-      animation-direction: reverse;
-      animation-duration: 22s;
+      /* direction handled by JS */
     }
 
     @keyframes marqueeScroll {
@@ -655,7 +653,7 @@
     }
 
     .brands-marquee-wrap:hover .brands-marquee-track {
-      animation-play-state: paused;
+      /* pause handled by JS */
     }
 
     .brand-pill {
@@ -2041,7 +2039,7 @@
     <h2 class="section-title reveal">The UK's best brands.<br>In stock. Today.</h2>
     <p class="section-sub reveal">We carry 13+ of the most trusted names in vaping — from premium pod kits to the latest disposable ranges.</p>
 
-    <div class="brands-marquee-wrap reveal">
+    <div class="brands-marquee-wrap">
 
       <!-- Row 1 scrolls left -->
       <div class="brands-marquee-row">
@@ -2604,6 +2602,51 @@
 </div>
 
 <script>
+  /* ═══ MARQUEE ENGINE ═══
+     Measures actual pixel width of one "set" of pills, then uses
+     requestAnimationFrame for a perfectly smooth, never-jumping loop.
+  ══════════════════════════ */
+  function initMarquees() {
+    document.querySelectorAll('.brands-marquee-row').forEach((row, rowIndex) => {
+      const track = row.querySelector('.brands-marquee-track');
+      if (!track) return;
+
+      // Speed in px/frame (≈60fps). Row 0 scrolls left, row 1 scrolls right.
+      const speed  = rowIndex === 0 ? 0.55 : 0.45;
+      const dir    = rowIndex === 0 ? -1 : 1;
+
+      // Wait one frame so browser has rendered and scrollWidth is accurate
+      requestAnimationFrame(() => {
+        const halfWidth = track.scrollWidth / 2;
+        // Row 1 (reverse) starts at -halfWidth so it scrolls rightward into view
+        let x = dir === 1 ? -halfWidth : 0;
+        let paused = false;
+
+        row.addEventListener('mouseenter', () => { paused = true;  });
+        row.addEventListener('mouseleave', () => { paused = false; });
+
+        function tick() {
+          if (!paused) {
+            x += speed * dir;
+            // Seamless reset: when we've scrolled one full "set" width, snap back
+            if (x <= -halfWidth) x += halfWidth;
+            if (x >  0)          x -= halfWidth;
+            track.style.transform = `translateX(${x}px)`;
+          }
+          requestAnimationFrame(tick);
+        }
+        requestAnimationFrame(tick);
+      });
+    });
+  }
+
+  // Kick off after fonts/images have settled for accurate measurements
+  if (document.readyState === 'complete') {
+    initMarquees();
+  } else {
+    window.addEventListener('load', initMarquees);
+  }
+
   /* ═══ CHATBOT ═══ */
   const VAPO_KB = {
     greetings: {
