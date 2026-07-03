@@ -1,0 +1,2821 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- ─── PRIMARY META ─── -->
+  <title>Vapo UK | Premium Vape Shop in Accrington, Lancashire</title>
+  <meta name="description" content="Vapo UK — Accrington's trusted vape shop. Premium devices, e-liquids, nic salts &amp; disposables. Any 4 liquids £10. 133 Henry Street BB5 4EP. Call 01254 917777." />
+  <meta name="keywords" content="vape shop Accrington, vape store Accrington, e-liquids Accrington, nic salts Accrington, vape kits Accrington, vape shop Lancashire, disposable vapes Accrington, Elf Bar Accrington, Lost Mary Accrington" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://www.vapouk.co.uk/" />
+
+  <!-- ─── OPEN GRAPH (Facebook, WhatsApp, LinkedIn previews) ─── -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.vapouk.co.uk/" />
+  <meta property="og:title" content="Vapo UK | Premium Vape Shop in Accrington" />
+  <meta property="og:description" content="Accrington's trusted vape destination. Leading brands, expert advice and unbeatable value. Any 4 liquids for £10 — in-store now." />
+  <meta property="og:image" content="https://www.vapouk.co.uk/og-image.jpg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:locale" content="en_GB" />
+  <meta property="og:site_name" content="Vapo UK" />
+
+  <!-- ─── TWITTER / X CARD ─── -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Vapo UK | Premium Vape Shop in Accrington" />
+  <meta name="twitter:description" content="Accrington's trusted vape destination. Any 4 e-liquids for £10 — in-store now." />
+  <meta name="twitter:image" content="https://www.vapouk.co.uk/og-image.jpg" />
+
+  <!-- ─── FAVICON (inline SVG — no file needed) ─── -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='16' fill='%23000'/><text x='8' y='62' font-family='Arial Black,sans-serif' font-weight='900' font-size='52' fill='white'>V</text><text x='52' y='78' font-family='Arial Black,sans-serif' font-weight='900' font-size='28' fill='%23EC008C'>UK</text></svg>" />
+  <meta name="theme-color" content="#000000" />
+
+  <!-- ─── LOCAL BUSINESS STRUCTURED DATA (JSON-LD) ─── -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "VapeShop",
+    "name": "Vapo UK",
+    "image": "https://www.vapouk.co.uk/og-image.jpg",
+    "url": "https://www.vapouk.co.uk",
+    "telephone": "01254917777",
+    "email": "hello@vapouk.co.uk",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "133 Henry Street",
+      "addressLocality": "Accrington",
+      "addressRegion": "Lancashire",
+      "postalCode": "BB5 4EP",
+      "addressCountry": "GB"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 53.7531,
+      "longitude": -2.3637
+    },
+    "openingHoursSpecification": [
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"], "opens": "09:00", "closes": "18:00" },
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": "Saturday", "opens": "09:00", "closes": "17:00" },
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": "Sunday", "opens": "00:00", "closes": "00:00" }
+    ],
+    "priceRange": "£",
+    "description": "Accrington's trusted vape destination. Stocking leading brands including Elf Bar, Lost Mary, IVG, Geek Vape, OXVA and more. Expert in-store advice and unbeatable value.",
+    "servesCuisine": null,
+    "sameAs": []
+  }
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap&font-display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --black: #000000;
+      --charcoal: #121212;
+      --card: #1a1a1a;
+      --border: #2a2a2a;
+      --pink: #EC008C;
+      --pink-dark: #c40077;
+      --pink-glow: rgba(236, 0, 140, 0.15);
+      --white: #FFFFFF;
+      --grey: #F5F5F5;
+      --muted: #888888;
+      --font: 'Inter', -apple-system, sans-serif;
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: var(--font);
+      background: var(--black);
+      color: var(--white);
+      line-height: 1.6;
+      overflow-x: hidden;
+    }
+
+    /* ─── NAVIGATION ─── */
+    nav {
+      position: fixed;
+      top: 0; left: 0; right: 0;
+      z-index: 1000;
+      padding: 0 2rem;
+      height: 72px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background: rgba(0,0,0,0.85);
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+      border-bottom: 1px solid var(--border);
+      transition: background 0.3s;
+    }
+
+    .nav-logo svg { height: 36px; width: auto; }
+
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 2rem;
+      list-style: none;
+    }
+
+    .nav-links a {
+      color: rgba(255,255,255,0.75);
+      text-decoration: none;
+      font-size: 0.875rem;
+      font-weight: 500;
+      letter-spacing: 0.02em;
+      transition: color 0.2s;
+    }
+
+    .nav-links a:hover { color: var(--white); }
+
+    .nav-cta {
+      background: var(--pink);
+      color: var(--white) !important;
+      padding: 0.5rem 1.25rem;
+      border-radius: 6px;
+      font-weight: 600;
+      transition: background 0.2s, transform 0.15s !important;
+    }
+
+    .nav-cta:hover {
+      background: var(--pink-dark) !important;
+      color: var(--white) !important;
+      transform: translateY(-1px);
+    }
+
+    .hamburger {
+      display: none;
+      flex-direction: column;
+      gap: 5px;
+      cursor: pointer;
+      padding: 4px;
+      background: none;
+      border: none;
+    }
+
+    .hamburger span {
+      width: 24px; height: 2px;
+      background: var(--white);
+      border-radius: 2px;
+      transition: all 0.3s;
+    }
+
+    /* ─── HERO ─── */
+    #hero {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      position: relative;
+      overflow: hidden;
+      background: var(--black);
+      padding: 120px 2rem 80px;
+      background-image: url('https://images.unsplash.com/photo-1553273058-03f8445d9f2e?w=1920&q=80&auto=format&fit=crop');
+      background-size: cover;
+      background-position: center right;
+    }
+
+    /* Dark gradient overlay so text stays crisp over photo */
+    #hero::after {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(
+        100deg,
+        rgba(0,0,0,0.97) 0%,
+        rgba(0,0,0,0.88) 45%,
+        rgba(0,0,0,0.5) 75%,
+        rgba(0,0,0,0.2) 100%
+      );
+      z-index: 0;
+    }
+
+    /* Push hero content above the overlay */
+    .hero-inner { position: relative; z-index: 1; }
+    .hero-sweep, .hero-sweep-2, .hero-grid { z-index: 0; }
+
+    .hero-sweep {
+      position: absolute;
+      top: -10%;
+      right: -5%;
+      width: 65%;
+      height: 120%;
+      background: linear-gradient(135deg, transparent 0%, transparent 40%, rgba(236,0,140,0.06) 55%, rgba(236,0,140,0.12) 70%, rgba(236,0,140,0.04) 85%, transparent 100%);
+      transform: skewX(-8deg);
+      pointer-events: none;
+    }
+
+    .hero-sweep-2 {
+      position: absolute;
+      bottom: -20%;
+      left: -10%;
+      width: 50%;
+      height: 60%;
+      background: radial-gradient(ellipse at center, rgba(236,0,140,0.08) 0%, transparent 70%);
+      pointer-events: none;
+    }
+
+    .hero-grid {
+      position: absolute;
+      inset: 0;
+      background-image: linear-gradient(rgba(255,255,255,0.02) 1px, transparent 1px),
+                        linear-gradient(90deg, rgba(255,255,255,0.02) 1px, transparent 1px);
+      background-size: 60px 60px;
+      pointer-events: none;
+    }
+
+    .hero-inner {
+      position: relative;
+      max-width: 1200px;
+      margin: 0 auto;
+      width: 100%;
+    }
+
+    .hero-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      background: rgba(236,0,140,0.1);
+      border: 1px solid rgba(236,0,140,0.3);
+      color: var(--pink);
+      padding: 0.4rem 1rem;
+      border-radius: 100px;
+      font-size: 0.75rem;
+      font-weight: 600;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      margin-bottom: 2rem;
+    }
+
+    .hero-badge::before {
+      content: '';
+      width: 6px; height: 6px;
+      background: var(--pink);
+      border-radius: 50%;
+      animation: pulse 2s infinite;
+    }
+
+    @keyframes pulse {
+      0%, 100% { opacity: 1; transform: scale(1); }
+      50% { opacity: 0.5; transform: scale(0.8); }
+    }
+
+    .hero-headline {
+      font-size: clamp(2.8rem, 7vw, 5.5rem);
+      font-weight: 900;
+      line-height: 1.05;
+      letter-spacing: -0.03em;
+      margin-bottom: 1.5rem;
+      max-width: 800px;
+    }
+
+    .hero-headline .accent { color: var(--pink); }
+
+    .hero-sub {
+      font-size: clamp(1rem, 2vw, 1.25rem);
+      color: rgba(255,255,255,0.65);
+      font-weight: 400;
+      max-width: 520px;
+      margin-bottom: 3rem;
+      line-height: 1.7;
+    }
+
+    .hero-actions {
+      display: flex;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+
+    .btn-primary {
+      background: var(--pink);
+      color: var(--white);
+      padding: 0.9rem 2.25rem;
+      border-radius: 8px;
+      font-size: 1rem;
+      font-weight: 700;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      transition: background 0.2s, transform 0.15s, box-shadow 0.2s;
+      border: none;
+      cursor: pointer;
+    }
+
+    .btn-primary:hover {
+      background: var(--pink-dark);
+      transform: translateY(-2px);
+      box-shadow: 0 8px 30px rgba(236,0,140,0.4);
+    }
+
+    .btn-secondary {
+      background: transparent;
+      color: var(--white);
+      padding: 0.9rem 2.25rem;
+      border-radius: 8px;
+      font-size: 1rem;
+      font-weight: 600;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      border: 1px solid rgba(255,255,255,0.25);
+      transition: border-color 0.2s, background 0.2s, transform 0.15s;
+    }
+
+    .btn-secondary:hover {
+      border-color: var(--pink);
+      color: var(--pink);
+      transform: translateY(-2px);
+    }
+
+    .hero-stats {
+      display: flex;
+      gap: 3rem;
+      margin-top: 4rem;
+      padding-top: 3rem;
+      border-top: 1px solid var(--border);
+      flex-wrap: wrap;
+    }
+
+    .hero-stat-num {
+      font-size: 2rem;
+      font-weight: 900;
+      color: var(--pink);
+      line-height: 1;
+    }
+
+    .hero-stat-label {
+      font-size: 0.8rem;
+      color: var(--muted);
+      margin-top: 0.25rem;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+    }
+
+    /* ─── SECTION BASE ─── */
+    section { padding: 100px 2rem; }
+
+    .section-inner {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .section-eyebrow {
+      font-size: 0.75rem;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--pink);
+      margin-bottom: 1rem;
+    }
+
+    .section-title {
+      font-size: clamp(2rem, 4vw, 3rem);
+      font-weight: 800;
+      letter-spacing: -0.025em;
+      line-height: 1.15;
+      margin-bottom: 1rem;
+    }
+
+    .section-sub {
+      color: rgba(255,255,255,0.6);
+      font-size: 1.1rem;
+      max-width: 560px;
+      line-height: 1.7;
+    }
+
+    /* ─── WHY CHOOSE ─── */
+    #why { background: var(--charcoal); }
+
+    .why-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 1.5px;
+      margin-top: 4rem;
+      background: var(--border);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      overflow: hidden;
+    }
+
+    .why-card {
+      background: var(--card);
+      padding: 2.5rem 2rem;
+      transition: background 0.2s;
+    }
+
+    .why-card:hover { background: #222; }
+
+    .why-icon {
+      width: 52px; height: 52px;
+      background: rgba(236,0,140,0.1);
+      border: 1px solid rgba(236,0,140,0.2);
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 1.5rem;
+      font-size: 1.5rem;
+    }
+
+    .why-card h3 {
+      font-size: 1.1rem;
+      font-weight: 700;
+      margin-bottom: 0.6rem;
+    }
+
+    .why-card p {
+      font-size: 0.9rem;
+      color: var(--muted);
+      line-height: 1.6;
+    }
+
+    /* ─── OFFER ─── */
+    #offer { background: var(--black); }
+
+    .offer-card {
+      margin-top: 3rem;
+      border-radius: 20px;
+      overflow: hidden;
+      border: 1px solid var(--border);
+      background: var(--card);
+      position: relative;
+    }
+
+    .offer-card::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(135deg, rgba(236,0,140,0.07) 0%, transparent 55%);
+      pointer-events: none;
+    }
+
+    .offer-top-bar {
+      background: var(--pink);
+      text-align: center;
+      font-size: 0.7rem;
+      font-weight: 800;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      padding: 0.65rem 1rem;
+      color: white;
+    }
+
+    .offer-body {
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 0;
+      align-items: stretch;
+    }
+
+    .offer-left {
+      padding: 2.5rem 2.5rem 2.5rem 2.5rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .offer-tag {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      background: rgba(236,0,140,0.1);
+      border: 1px solid rgba(236,0,140,0.25);
+      color: var(--pink);
+      font-size: 0.7rem;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      padding: 0.3rem 0.8rem;
+      border-radius: 100px;
+      margin-bottom: 1.25rem;
+      width: fit-content;
+    }
+
+    .offer-headline {
+      font-size: clamp(1.6rem, 3.5vw, 2.4rem);
+      font-weight: 900;
+      letter-spacing: -0.025em;
+      line-height: 1.15;
+      margin-bottom: 0.75rem;
+    }
+
+    .offer-desc {
+      font-size: 0.925rem;
+      color: rgba(255,255,255,0.55);
+      line-height: 1.7;
+      max-width: 420px;
+      margin-bottom: 1.75rem;
+    }
+
+    .offer-meta {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      font-size: 0.75rem;
+      color: rgba(255,255,255,0.35);
+      letter-spacing: 0.04em;
+      margin-top: 1.25rem;
+    }
+
+    .offer-meta-dot {
+      width: 3px; height: 3px;
+      background: var(--pink);
+      opacity: 0.4;
+      border-radius: 50%;
+    }
+
+    .offer-right {
+      border-left: 1px solid var(--border);
+      padding: 2.5rem 3rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      background: rgba(236,0,140,0.03);
+      min-width: 200px;
+    }
+
+    .offer-for-label {
+      font-size: 0.65rem;
+      text-transform: uppercase;
+      letter-spacing: 0.14em;
+      color: var(--muted);
+      margin-bottom: 0.25rem;
+    }
+
+    .offer-any4 {
+      font-size: 0.85rem;
+      font-weight: 700;
+      color: rgba(255,255,255,0.7);
+      margin-bottom: 0.75rem;
+    }
+
+    .offer-big-price {
+      font-size: 5.5rem;
+      font-weight: 900;
+      color: var(--pink);
+      line-height: 1;
+      letter-spacing: -0.05em;
+      position: relative;
+    }
+
+    .offer-big-price sup {
+      font-size: 2rem;
+      font-weight: 900;
+      vertical-align: super;
+      position: relative;
+      top: 0.4rem;
+    }
+
+    .offer-stocks {
+      font-size: 0.7rem;
+      color: #555;
+      margin-top: 0.75rem;
+      letter-spacing: 0.04em;
+    }
+
+    @media (max-width: 680px) {
+      .offer-body {
+        grid-template-columns: 1fr;
+      }
+      .offer-right {
+        border-left: none;
+        border-top: 1px solid var(--border);
+        padding: 2rem;
+        flex-direction: row;
+        gap: 1.5rem;
+        text-align: left;
+        justify-content: flex-start;
+        align-items: center;
+      }
+      .offer-left { padding: 2rem; }
+      .offer-big-price { font-size: 4rem; }
+    }
+
+    /* ─── BRANDS ─── */
+    #brands { background: var(--charcoal); }
+
+    /* ─── BRANDS MARQUEE ─── */
+    .brands-marquee-wrap {
+      margin-top: 3.5rem;
+      overflow: hidden;
+      position: relative;
+      padding: 0;
+    }
+
+    .brands-marquee-wrap::before,
+    .brands-marquee-wrap::after {
+      content: '';
+      position: absolute;
+      top: 0; bottom: 0;
+      width: 80px;
+      z-index: 2;
+      pointer-events: none;
+    }
+
+    .brands-marquee-wrap::before {
+      left: 0;
+      background: linear-gradient(90deg, var(--charcoal), transparent);
+    }
+
+    .brands-marquee-wrap::after {
+      right: 0;
+      background: linear-gradient(270deg, var(--charcoal), transparent);
+    }
+
+    .brands-marquee-row {
+      display: flex;
+      gap: 0;
+      margin-bottom: 1px;
+    }
+
+    .brands-marquee-track {
+      display: flex;
+      gap: 0;
+      animation: marqueeScroll 28s linear infinite;
+      will-change: transform;
+    }
+
+    .brands-marquee-row:nth-child(2) .brands-marquee-track {
+      animation-direction: reverse;
+      animation-duration: 22s;
+    }
+
+    @keyframes marqueeScroll {
+      from { transform: translateX(0); }
+      to { transform: translateX(-50%); }
+    }
+
+    .brands-marquee-wrap:hover .brands-marquee-track {
+      animation-play-state: paused;
+    }
+
+    .brand-pill {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0 2rem;
+      height: 84px;
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-right: none;
+      white-space: nowrap;
+      flex-shrink: 0;
+      gap: 0.75rem;
+      transition: background 0.2s;
+    }
+
+    .brand-pill:hover { background: #222; }
+
+    .bp-icon {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+      opacity: 0.85;
+      transition: opacity 0.2s;
+    }
+
+    .brand-pill:hover .bp-icon { opacity: 1; }
+
+    .brand-pill .bp-name {
+      font-size: 0.85rem;
+      font-weight: 900;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: rgba(255,255,255,0.55);
+      transition: color 0.2s;
+    }
+
+    .brand-pill .bp-name em {
+      font-style: normal;
+      color: var(--pink);
+    }
+
+    .brand-pill:hover .bp-name { color: var(--white); }
+
+    .brand-pill .bp-dot {
+      width: 4px; height: 4px;
+      background: rgba(236,0,140,0.4);
+      border-radius: 50%;
+      margin-left: 2rem;
+      flex-shrink: 0;
+    }
+
+    /* ─── LOYALTY ─── */
+    #loyalty { background: var(--black); }
+
+    .loyalty-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 4rem;
+      margin-top: 3rem;
+      align-items: center;
+    }
+
+    .loyalty-features {
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+      margin-top: 2rem;
+    }
+
+    .loyalty-feature {
+      display: flex;
+      align-items: flex-start;
+      gap: 1rem;
+    }
+
+    .loyalty-feature-icon {
+      width: 40px; height: 40px;
+      background: rgba(236,0,140,0.1);
+      border: 1px solid rgba(236,0,140,0.2);
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.1rem;
+      flex-shrink: 0;
+      margin-top: 2px;
+    }
+
+    .loyalty-feature h4 {
+      font-size: 0.95rem;
+      font-weight: 700;
+      margin-bottom: 0.25rem;
+    }
+
+    .loyalty-feature p {
+      font-size: 0.85rem;
+      color: var(--muted);
+    }
+
+    .loyalty-card-visual {
+      background: linear-gradient(135deg, #1a1a1a 0%, #111 100%);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 3rem 2.5rem;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .loyalty-card-visual::before {
+      content: '';
+      position: absolute;
+      top: -30%;
+      right: -20%;
+      width: 60%;
+      height: 100%;
+      background: radial-gradient(ellipse, rgba(236,0,140,0.12) 0%, transparent 70%);
+    }
+
+    .loyalty-card-visual::after {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0;
+      height: 3px;
+      background: linear-gradient(90deg, var(--pink), #ff6ec7, transparent);
+    }
+
+    .loyalty-card-title {
+      font-size: 1.5rem;
+      font-weight: 800;
+      margin-bottom: 0.5rem;
+    }
+
+    .loyalty-card-sub {
+      font-size: 0.875rem;
+      color: var(--muted);
+      margin-bottom: 2rem;
+    }
+
+    .loyalty-stamps {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 0.6rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .stamp {
+      width: 100%;
+      aspect-ratio: 1;
+      border: 2px solid rgba(236,0,140,0.3);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.1rem;
+    }
+
+    .stamp.filled {
+      background: var(--pink);
+      border-color: var(--pink);
+    }
+
+    .stamp.empty { background: transparent; }
+
+    .loyalty-progress-label {
+      font-size: 0.75rem;
+      color: var(--muted);
+      text-align: center;
+    }
+
+    .loyalty-card-footer {
+      margin-top: 1.5rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid var(--border);
+      font-size: 0.8rem;
+      color: var(--muted);
+    }
+
+    /* ─── AGE VERIFICATION ─── */
+    #age { background: var(--charcoal); }
+
+    .age-poster-card {
+      background: linear-gradient(135deg, #1a0a14 0%, #200d1a 100%);
+      border: 1px solid rgba(236,0,140,0.2);
+      border-radius: 16px;
+      padding: 4rem;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .age-poster-card::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(135deg, rgba(236,0,140,0.08) 0%, transparent 50%);
+    }
+
+    .age-18-badge {
+      font-size: clamp(4rem, 10vw, 8rem);
+      font-weight: 900;
+      color: var(--pink);
+      line-height: 1;
+      margin-bottom: 0.5rem;
+      letter-spacing: -0.04em;
+    }
+
+    .age-tagline {
+      font-size: clamp(1.2rem, 3vw, 1.8rem);
+      font-weight: 800;
+      margin-bottom: 0.25rem;
+    }
+
+    .age-tagline .pink { color: var(--pink); }
+
+    .age-legal {
+      font-size: 0.95rem;
+      color: rgba(255,255,255,0.7);
+      margin: 1.5rem 0 2rem;
+      max-width: 540px;
+    }
+
+    .age-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 3rem;
+      align-items: center;
+      position: relative;
+    }
+
+    .age-points {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      margin-top: 1.5rem;
+    }
+
+    .age-point {
+      display: flex;
+      align-items: flex-start;
+      gap: 0.75rem;
+      font-size: 0.9rem;
+      color: rgba(255,255,255,0.75);
+    }
+
+    .age-point::before {
+      content: '•';
+      color: var(--pink);
+      font-size: 1.2rem;
+      flex-shrink: 0;
+      line-height: 1.3;
+    }
+
+    .id-section { margin-top: 2.5rem; }
+
+    .id-section h4 {
+      font-size: 0.8rem;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: var(--muted);
+      margin-bottom: 1rem;
+    }
+
+    .id-chips {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.6rem;
+    }
+
+    .id-chip {
+      background: rgba(255,255,255,0.05);
+      border: 1px solid rgba(255,255,255,0.1);
+      padding: 0.45rem 1rem;
+      border-radius: 100px;
+      font-size: 0.8rem;
+      color: rgba(255,255,255,0.75);
+      font-weight: 500;
+    }
+
+    /* ─── STORE ─── */
+    #store { background: var(--black); }
+
+    .store-grid {
+      display: grid;
+      grid-template-columns: 1fr 1.2fr;
+      gap: 4rem;
+      margin-top: 3rem;
+      align-items: start;
+    }
+
+    .store-info-cards {
+      display: flex;
+      flex-direction: column;
+      gap: 1px;
+      background: var(--border);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      overflow: hidden;
+    }
+
+    .store-info-card {
+      background: var(--card);
+      padding: 1.75rem 2rem;
+      display: flex;
+      align-items: flex-start;
+      gap: 1rem;
+    }
+
+    .store-info-icon {
+      font-size: 1.25rem;
+      flex-shrink: 0;
+      margin-top: 2px;
+    }
+
+    .store-info-card h4 {
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--muted);
+      margin-bottom: 0.4rem;
+    }
+
+    .store-info-card p, .store-info-card a {
+      font-size: 1rem;
+      font-weight: 600;
+      color: var(--white);
+      text-decoration: none;
+      line-height: 1.5;
+      transition: color 0.2s;
+    }
+
+    .store-info-card a:hover { color: var(--pink); }
+
+    .hours-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 0.3rem 2rem;
+      margin-top: 0.25rem;
+    }
+
+    .hours-row {
+      display: flex;
+      justify-content: space-between;
+      font-size: 0.875rem;
+      color: rgba(255,255,255,0.65);
+    }
+
+    .hours-row .day { font-weight: 500; color: var(--white); }
+
+    /* ─── MAP CARD ─── */
+    .map-card {
+      display: flex;
+      flex-direction: column;
+      border-radius: 16px;
+      overflow: hidden;
+      border: 1px solid var(--border);
+      text-decoration: none;
+      color: var(--white);
+      transition: border-color 0.2s, transform 0.2s;
+      min-height: 400px;
+      position: relative;
+    }
+
+    .map-card:hover {
+      border-color: var(--pink);
+      transform: translateY(-4px);
+    }
+
+    .map-card-bg {
+      flex: 1;
+      background: radial-gradient(ellipse at 60% 40%, rgba(236,0,140,0.12) 0%, transparent 60%),
+                  linear-gradient(135deg, #0d0d0d 0%, #1a0a14 50%, #111 100%);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      min-height: 260px;
+    }
+
+    /* Subtle coordinate grid lines */
+    .map-card-bg::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background-image:
+        linear-gradient(rgba(236,0,140,0.06) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(236,0,140,0.06) 1px, transparent 1px);
+      background-size: 32px 32px;
+    }
+
+    .map-pin-ring {
+      position: absolute;
+      border-radius: 50%;
+      border: 1px solid rgba(236,0,140,0.2);
+    }
+
+    .map-pin-ring-1 { width: 80px; height: 80px; }
+    .map-pin-ring-2 { width: 140px; height: 140px; border-color: rgba(236,0,140,0.12); }
+    .map-pin-ring-3 { width: 210px; height: 210px; border-color: rgba(236,0,140,0.07); }
+
+    .map-pin-icon {
+      position: relative;
+      z-index: 1;
+      width: 56px;
+      height: 56px;
+      filter: drop-shadow(0 0 20px rgba(236,0,140,0.5));
+      animation: pinBounce 2.5s ease-in-out infinite;
+    }
+
+    @keyframes pinBounce {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-8px); }
+    }
+
+    .map-card-content {
+      background: var(--card);
+      padding: 1.5rem 2rem;
+      border-top: 1px solid var(--border);
+      display: flex;
+      align-items: center;
+      gap: 1.5rem;
+      flex-wrap: wrap;
+    }
+
+    .map-card-label {
+      font-size: 0.7rem;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: var(--muted);
+      margin-bottom: 0.3rem;
+    }
+
+    .map-card-address {
+      font-size: 0.95rem;
+      line-height: 1.6;
+      color: rgba(255,255,255,0.8);
+      flex: 1;
+    }
+
+    .map-card-address strong { color: var(--white); font-weight: 700; }
+
+    .map-card-cta {
+      font-size: 0.8rem;
+      font-weight: 700;
+      color: var(--pink);
+      letter-spacing: 0.04em;
+      white-space: nowrap;
+      transition: color 0.2s;
+    }
+
+    .map-card:hover .map-card-cta { color: #ff40b5; }
+
+    .store-actions {
+      display: flex;
+      gap: 1rem;
+      margin-top: 1.5rem;
+      flex-wrap: wrap;
+    }
+
+    /* ─── SEO SECTION ─── */
+    #seo-content { background: var(--charcoal); }
+
+    .seo-content-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 3rem;
+      margin-top: 3rem;
+    }
+
+    .seo-content-block h3 {
+      font-size: 1.2rem;
+      font-weight: 700;
+      margin-bottom: 0.75rem;
+    }
+
+    .seo-content-block p {
+      font-size: 0.9rem;
+      color: rgba(255,255,255,0.6);
+      line-height: 1.8;
+    }
+
+    /* ─── FOOTER ─── */
+    footer {
+      background: #080808;
+      border-top: 1px solid var(--border);
+      padding: 4rem 2rem 2rem;
+    }
+
+    .footer-inner {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .footer-top {
+      display: grid;
+      grid-template-columns: 1.5fr 1fr 1fr 1fr;
+      gap: 3rem;
+      margin-bottom: 3rem;
+      padding-bottom: 3rem;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .footer-brand svg { height: 32px; width: auto; margin-bottom: 1rem; }
+
+    .footer-brand p {
+      font-size: 0.85rem;
+      color: var(--muted);
+      line-height: 1.7;
+      margin-bottom: 1.25rem;
+    }
+
+    .social-links {
+      display: flex;
+      gap: 0.75rem;
+    }
+
+    .social-link {
+      width: 36px; height: 36px;
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--muted);
+      text-decoration: none;
+      font-size: 0.9rem;
+      transition: background 0.2s, color 0.2s, border-color 0.2s;
+    }
+
+    .social-link:hover {
+      background: var(--pink);
+      border-color: var(--pink);
+      color: var(--white);
+    }
+
+    .footer-col h4 {
+      font-size: 0.8rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: var(--white);
+      margin-bottom: 1rem;
+    }
+
+    .footer-links {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 0.6rem;
+    }
+
+    .footer-links a {
+      color: var(--muted);
+      text-decoration: none;
+      font-size: 0.875rem;
+      transition: color 0.2s;
+    }
+
+    .footer-links a:hover { color: var(--white); }
+
+    .footer-contact-item {
+      display: flex;
+      gap: 0.5rem;
+      font-size: 0.875rem;
+      color: var(--muted);
+      margin-bottom: 0.6rem;
+    }
+
+    .footer-contact-item a {
+      color: var(--muted);
+      text-decoration: none;
+      transition: color 0.2s;
+    }
+
+    .footer-contact-item a:hover { color: var(--pink); }
+
+    .footer-bottom {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 2rem;
+      flex-wrap: wrap;
+    }
+
+    .footer-bottom p {
+      font-size: 0.8rem;
+      color: #555;
+    }
+
+    .footer-bottom-links {
+      display: flex;
+      gap: 1.5rem;
+    }
+
+    .footer-bottom-links a {
+      color: #555;
+      text-decoration: none;
+      font-size: 0.8rem;
+      transition: color 0.2s;
+    }
+
+    .footer-bottom-links a:hover { color: var(--muted); }
+
+    .responsible-notice {
+      width: 100%;
+      text-align: center;
+      margin-top: 1.5rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid var(--border);
+      font-size: 0.8rem;
+      color: #444;
+    }
+
+    .responsible-notice strong { color: #666; }
+
+    /* ─── MOBILE MENU ─── */
+    .mobile-menu {
+      display: none;
+      position: fixed;
+      inset: 0;
+      top: 72px;
+      background: rgba(0,0,0,0.97);
+      z-index: 999;
+      padding: 2rem;
+      flex-direction: column;
+      gap: 1.5rem;
+    }
+
+    .mobile-menu.open { display: flex; }
+
+    .mobile-menu a {
+      color: rgba(255,255,255,0.8);
+      text-decoration: none;
+      font-size: 1.25rem;
+      font-weight: 600;
+      padding: 0.75rem 0;
+      border-bottom: 1px solid var(--border);
+      transition: color 0.2s;
+    }
+
+    .mobile-menu a:hover { color: var(--pink); }
+
+    /* ─── SCROLL ANIMATIONS ─── */
+    .reveal {
+      opacity: 0;
+      transform: translateY(24px);
+      transition: opacity 0.6s ease, transform 0.6s ease;
+    }
+
+    .reveal.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    .reveal-delay-1 { transition-delay: 0.1s; }
+    .reveal-delay-2 { transition-delay: 0.2s; }
+    .reveal-delay-3 { transition-delay: 0.3s; }
+    .reveal-delay-4 { transition-delay: 0.4s; }
+
+    /* ─── RESPONSIVE ─── */
+    @media (max-width: 900px) {
+      .nav-links { display: none; }
+      .hamburger { display: flex; }
+
+      .loyalty-grid,
+      .age-grid,
+      .store-grid,
+      .seo-content-grid,
+      .footer-top { grid-template-columns: 1fr; }
+
+      .loyalty-card-visual { order: -1; }
+      /* offer mobile handled inline */
+
+      .footer-top { grid-template-columns: 1fr 1fr; }
+
+      .age-18-badge { font-size: 4rem; }
+    }
+
+    @media (max-width: 600px) {
+      section { padding: 70px 1.25rem; }
+      nav { padding: 0 1.25rem; }
+
+      .hero-stats { gap: 1.5rem; }
+      .brands-marquee-wrap { margin-top: 2.5rem; }
+      .footer-top { grid-template-columns: 1fr; }
+      .footer-bottom { flex-direction: column; align-items: flex-start; }
+
+      .age-poster-card { padding: 2rem 1.5rem; }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after { animation: none !important; transition: none !important; }
+    }
+
+    /* ─── AGE GATE ─── */
+    #age-gate {
+      position: fixed;
+      inset: 0;
+      z-index: 9999;
+      background: rgba(0,0,0,0.96);
+      backdrop-filter: blur(12px);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem;
+    }
+
+    #age-gate.hidden { display: none; }
+
+    .age-gate-box {
+      background: var(--charcoal);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      padding: 3rem 2.5rem;
+      max-width: 480px;
+      width: 100%;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .age-gate-box::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0;
+      height: 4px;
+      background: linear-gradient(90deg, var(--pink), #ff6ec7);
+    }
+
+    .age-gate-logo {
+      margin-bottom: 1.5rem;
+    }
+
+    .age-gate-18 {
+      font-size: 5rem;
+      font-weight: 900;
+      color: var(--pink);
+      line-height: 1;
+      letter-spacing: -0.04em;
+      margin-bottom: 0.5rem;
+    }
+
+    .age-gate-title {
+      font-size: 1.4rem;
+      font-weight: 800;
+      margin-bottom: 0.5rem;
+    }
+
+    .age-gate-sub {
+      font-size: 0.875rem;
+      color: var(--muted);
+      line-height: 1.6;
+      margin-bottom: 2rem;
+    }
+
+    .age-gate-buttons {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1rem;
+    }
+
+    .age-gate-yes {
+      background: var(--pink);
+      color: white;
+      border: none;
+      border-radius: 10px;
+      padding: 1rem;
+      font-size: 1rem;
+      font-weight: 700;
+      font-family: var(--font);
+      cursor: pointer;
+      transition: background 0.2s, transform 0.15s;
+    }
+
+    .age-gate-yes:hover {
+      background: var(--pink-dark);
+      transform: translateY(-2px);
+    }
+
+    .age-gate-no {
+      background: transparent;
+      color: var(--muted);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 1rem;
+      font-size: 1rem;
+      font-weight: 600;
+      font-family: var(--font);
+      cursor: pointer;
+      transition: border-color 0.2s, color 0.2s;
+    }
+
+    .age-gate-no:hover { border-color: var(--muted); color: var(--white); }
+
+    .age-gate-legal {
+      font-size: 0.7rem;
+      color: #444;
+      margin-top: 1.25rem;
+      line-height: 1.5;
+    }
+
+    /* ─── COOKIE BANNER ─── */
+    #cookie-banner {
+      position: fixed;
+      bottom: 1.5rem;
+      left: 1.5rem;
+      right: 1.5rem;
+      max-width: 520px;
+      z-index: 8888;
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 1.25rem 1.5rem;
+      display: flex;
+      gap: 1rem;
+      align-items: center;
+      flex-wrap: wrap;
+      box-shadow: 0 8px 40px rgba(0,0,0,0.5);
+      transform: translateY(0);
+      transition: transform 0.3s, opacity 0.3s;
+    }
+
+    #cookie-banner.hidden {
+      transform: translateY(120%);
+      opacity: 0;
+      pointer-events: none;
+    }
+
+    .cookie-text {
+      flex: 1;
+      font-size: 0.8rem;
+      color: rgba(255,255,255,0.65);
+      line-height: 1.5;
+      min-width: 200px;
+    }
+
+    .cookie-text a {
+      color: var(--pink);
+      text-decoration: none;
+    }
+
+    .cookie-buttons {
+      display: flex;
+      gap: 0.6rem;
+      flex-shrink: 0;
+    }
+
+    .cookie-accept {
+      background: var(--pink);
+      color: white;
+      border: none;
+      border-radius: 7px;
+      padding: 0.5rem 1.1rem;
+      font-size: 0.8rem;
+      font-weight: 700;
+      font-family: var(--font);
+      cursor: pointer;
+      transition: background 0.2s;
+    }
+
+    .cookie-accept:hover { background: var(--pink-dark); }
+
+    .cookie-decline {
+      background: transparent;
+      color: var(--muted);
+      border: 1px solid var(--border);
+      border-radius: 7px;
+      padding: 0.5rem 1.1rem;
+      font-size: 0.8rem;
+      font-weight: 600;
+      font-family: var(--font);
+      cursor: pointer;
+      transition: color 0.2s;
+    }
+
+    .cookie-decline:hover { color: var(--white); }
+
+    /* ─── UNDERAGE PAGE ─── */
+    #underage-screen {
+      position: fixed;
+      inset: 0;
+      z-index: 9999;
+      background: #000;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem;
+      display: none;
+    }
+
+    .underage-box {
+      text-align: center;
+      max-width: 400px;
+    }
+
+    .underage-box h2 {
+      font-size: 1.5rem;
+      font-weight: 800;
+      margin-bottom: 0.75rem;
+    }
+
+    .underage-box p {
+      color: var(--muted);
+      font-size: 0.9rem;
+      line-height: 1.6;
+    }
+
+    /* ─── REVIEW CARDS ─── */
+    .review-card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 1.75rem;
+      display: flex;
+      flex-direction: column;
+      gap: 0.75rem;
+      transition: border-color 0.2s, transform 0.2s;
+    }
+
+    .review-card:hover {
+      border-color: rgba(236,0,140,0.25);
+      transform: translateY(-3px);
+    }
+
+    .review-header {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+
+    .review-avatar {
+      width: 40px; height: 40px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, var(--pink), #ff6ec7);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.75rem;
+      font-weight: 800;
+      color: white;
+      flex-shrink: 0;
+    }
+
+    .review-name {
+      font-size: 0.9rem;
+      font-weight: 700;
+    }
+
+    .review-stars {
+      color: #f1c40f;
+      font-size: 0.8rem;
+      letter-spacing: 1px;
+    }
+
+    .review-google-icon {
+      margin-left: auto;
+      opacity: 0.7;
+    }
+
+    .review-text {
+      font-size: 0.875rem;
+      color: rgba(255,255,255,0.65);
+      line-height: 1.7;
+      flex: 1;
+    }
+
+    .review-date {
+      font-size: 0.7rem;
+      color: #555;
+      letter-spacing: 0.04em;
+    }
+
+    /* ─── CHATBOT ─── */
+    #chat-widget {
+      position: fixed;
+      bottom: 1.5rem;
+      right: 1.5rem;
+      z-index: 7777;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      gap: 0.75rem;
+    }
+
+    #chat-trigger {
+      background: var(--pink);
+      color: white;
+      border: none;
+      border-radius: 50px;
+      padding: 0.85rem 1.5rem;
+      font-size: 0.875rem;
+      font-weight: 700;
+      font-family: var(--font);
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      box-shadow: 0 4px 24px rgba(236,0,140,0.45);
+      transition: background 0.2s, transform 0.15s, box-shadow 0.2s;
+    }
+
+    #chat-trigger:hover {
+      background: var(--pink-dark);
+      transform: translateY(-2px);
+      box-shadow: 0 6px 30px rgba(236,0,140,0.55);
+    }
+
+    #chat-window {
+      width: 340px;
+      max-height: 520px;
+      background: var(--charcoal);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+      box-shadow: 0 16px 60px rgba(0,0,0,0.6);
+      transform-origin: bottom right;
+      transition: transform 0.25s cubic-bezier(0.34,1.56,0.64,1), opacity 0.2s;
+    }
+
+    #chat-window.chat-hidden {
+      transform: scale(0.85) translateY(10px);
+      opacity: 0;
+      pointer-events: none;
+    }
+
+    #chat-header {
+      background: var(--black);
+      border-bottom: 1px solid var(--border);
+      padding: 1rem 1.25rem;
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+
+    .chat-avatar {
+      width: 36px; height: 36px;
+      background: var(--pink);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1rem;
+      flex-shrink: 0;
+    }
+
+    .chat-header-info { flex: 1; }
+    .chat-header-name { font-size: 0.875rem; font-weight: 700; }
+    .chat-header-status { font-size: 0.7rem; color: #4caf50; }
+
+    #chat-close {
+      background: none;
+      border: none;
+      color: var(--muted);
+      font-size: 1.2rem;
+      cursor: pointer;
+      padding: 0.25rem;
+      line-height: 1;
+      transition: color 0.2s;
+    }
+    #chat-close:hover { color: var(--white); }
+
+    #chat-messages {
+      flex: 1;
+      overflow-y: auto;
+      padding: 1rem;
+      display: flex;
+      flex-direction: column;
+      gap: 0.75rem;
+      scroll-behavior: smooth;
+    }
+
+    #chat-messages::-webkit-scrollbar { width: 4px; }
+    #chat-messages::-webkit-scrollbar-track { background: transparent; }
+    #chat-messages::-webkit-scrollbar-thumb { background: var(--border); border-radius: 2px; }
+
+    .chat-msg {
+      max-width: 85%;
+      padding: 0.7rem 0.9rem;
+      border-radius: 12px;
+      font-size: 0.825rem;
+      line-height: 1.55;
+    }
+
+    .chat-msg.bot {
+      background: #222;
+      color: rgba(255,255,255,0.85);
+      border-radius: 4px 12px 12px 12px;
+      align-self: flex-start;
+    }
+
+    .chat-msg.user {
+      background: var(--pink);
+      color: white;
+      border-radius: 12px 4px 12px 12px;
+      align-self: flex-end;
+    }
+
+    .chat-typing {
+      display: flex;
+      gap: 4px;
+      align-items: center;
+      padding: 0.7rem 0.9rem;
+      background: #222;
+      border-radius: 4px 12px 12px 12px;
+      width: fit-content;
+    }
+
+    .chat-typing span {
+      width: 6px; height: 6px;
+      background: var(--muted);
+      border-radius: 50%;
+      animation: typingDot 1.2s ease-in-out infinite;
+    }
+    .chat-typing span:nth-child(2) { animation-delay: 0.2s; }
+    .chat-typing span:nth-child(3) { animation-delay: 0.4s; }
+
+    @keyframes typingDot {
+      0%, 60%, 100% { transform: translateY(0); opacity: 0.4; }
+      30% { transform: translateY(-6px); opacity: 1; }
+    }
+
+    #chat-input-row {
+      padding: 0.75rem;
+      border-top: 1px solid var(--border);
+      display: flex;
+      gap: 0.5rem;
+    }
+
+    #chat-input {
+      flex: 1;
+      background: #111;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 0.6rem 0.9rem;
+      color: var(--white);
+      font-size: 0.825rem;
+      font-family: var(--font);
+      outline: none;
+      transition: border-color 0.2s;
+    }
+    #chat-input:focus { border-color: var(--pink); }
+    #chat-input::placeholder { color: #555; }
+
+    #chat-send {
+      background: var(--pink);
+      color: white;
+      border: none;
+      border-radius: 8px;
+      padding: 0.6rem 1rem;
+      font-size: 0.8rem;
+      font-weight: 700;
+      font-family: var(--font);
+      cursor: pointer;
+      transition: background 0.2s;
+    }
+    #chat-send:hover { background: var(--pink-dark); }
+
+    .chat-quick-replies {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.4rem;
+      margin-top: 0.25rem;
+    }
+
+    .chat-qr {
+      background: transparent;
+      border: 1px solid rgba(236,0,140,0.4);
+      color: var(--pink);
+      font-size: 0.72rem;
+      font-family: var(--font);
+      padding: 0.35rem 0.7rem;
+      border-radius: 100px;
+      cursor: pointer;
+      transition: background 0.15s, color 0.15s;
+    }
+    .chat-qr:hover { background: var(--pink); color: white; }
+
+    @media (max-width: 400px) {
+      #chat-window { width: calc(100vw - 2rem); }
+    }
+  </style>
+</head>
+<body>
+
+<!-- ═══════════════════════════════════════ AGE GATE -->
+<div id="age-gate">
+  <div class="age-gate-box">
+    <div class="age-gate-logo">
+      <svg viewBox="0 0 260 110" fill="none" xmlns="http://www.w3.org/2000/svg" style="height:32px">
+        <text x="0" y="80" font-family="Inter, sans-serif" font-weight="900" font-size="88" fill="white">Vapo</text>
+        <text x="148" y="108" font-family="Inter, sans-serif" font-weight="900" font-size="42" fill="#EC008C">UK</text>
+      </svg>
+    </div>
+    <div class="age-gate-18">18+</div>
+    <h2 class="age-gate-title">Age Verification Required</h2>
+    <p class="age-gate-sub">This website sells e-cigarette and vaping products which are only suitable for adults aged 18 and over. Please confirm your age to continue.</p>
+    <div class="age-gate-buttons">
+      <button class="age-gate-yes" onclick="ageVerify(true)">Yes, I am 18+</button>
+      <button class="age-gate-no" onclick="ageVerify(false)">No, I am under 18</button>
+    </div>
+    <p class="age-gate-legal">By entering this site you confirm you are aged 18 or over. Vapo UK operates a strict Challenge 25 policy. It is a criminal offence to purchase vaping products on behalf of a person under 18.</p>
+  </div>
+</div>
+
+<!-- Underage redirect screen -->
+<div id="underage-screen">
+  <div class="underage-box">
+    <div style="font-size:3rem; margin-bottom:1rem;">🚫</div>
+    <h2>Sorry, you must be 18+</h2>
+    <p>This website contains products which are only available to adults aged 18 and over. We take responsible retailing seriously.</p>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════ COOKIE BANNER -->
+<div id="cookie-banner" class="hidden">
+  <p class="cookie-text">
+    We use cookies to improve your experience. By continuing to browse this site you agree to our use of cookies.
+    <a href="#">Privacy Policy</a>
+  </p>
+  <div class="cookie-buttons">
+    <button class="cookie-accept" onclick="cookieConsent(true)">Accept</button>
+    <button class="cookie-decline" onclick="cookieConsent(false)">Decline</button>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════ NAVIGATION -->
+<nav id="navbar">
+  <a href="#hero" class="nav-logo" aria-label="Vapo UK Home">
+    <!-- White logo version for nav -->
+    <svg viewBox="0 0 260 110" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <text x="0" y="80" font-family="Inter, sans-serif" font-weight="900" font-size="88" fill="white">Vapo</text>
+      <text x="148" y="108" font-family="Inter, sans-serif" font-weight="900" font-size="42" fill="#EC008C">UK</text>
+    </svg>
+  </a>
+  <ul class="nav-links">
+    <li><a href="#why">Why Us</a></li>
+    <li><a href="#offer">Offers</a></li>
+    <li><a href="#brands">Brands</a></li>
+    <li><a href="#loyalty">Loyalty</a></li>
+    <li><a href="#store">Find Us</a></li>
+    <li><a href="tel:01254917777" class="nav-cta">📞 Call Now</a></li>
+  </ul>
+  <button class="hamburger" aria-label="Menu" onclick="toggleMenu()">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<!-- Mobile Menu -->
+<div class="mobile-menu" id="mobileMenu">
+  <a href="#why" onclick="toggleMenu()">Why Choose Us</a>
+  <a href="#offer" onclick="toggleMenu()">Current Offers</a>
+  <a href="#brands" onclick="toggleMenu()">Brands We Stock</a>
+  <a href="#loyalty" onclick="toggleMenu()">Loyalty Rewards</a>
+  <a href="#age" onclick="toggleMenu()">Responsible Retailing</a>
+  <a href="#store" onclick="toggleMenu()">Visit Store</a>
+  <a href="tel:01254917777" style="color: #EC008C;">📞 01254 917777</a>
+</div>
+
+<!-- ═══════════════════════════════════════ HERO -->
+<section id="hero">
+  <div class="hero-sweep"></div>
+  <div class="hero-sweep-2"></div>
+  <div class="hero-grid"></div>
+
+  <div class="hero-inner">
+    <div class="hero-badge reveal">Accrington's Premier Vape Destination</div>
+
+    <h1 class="hero-headline reveal reveal-delay-1">
+      Premium Vape Products.<br><span class="accent">Local Expertise.</span>
+    </h1>
+
+    <p class="hero-sub reveal reveal-delay-2">
+      Your trusted vape destination in Accrington. Discover leading brands, expert advice and unbeatable value — all under one roof.
+    </p>
+
+    <div class="hero-actions reveal reveal-delay-3">
+      <a href="#store" class="btn-primary">
+        <span>🗺</span> Visit Store
+      </a>
+      <a href="tel:01254917777" class="btn-secondary">
+        <span>📞</span> 01254 917777
+      </a>
+    </div>
+
+    <div class="hero-stats reveal reveal-delay-4">
+      <div>
+        <div class="hero-stat-num">13+</div>
+        <div class="hero-stat-label">Premium Brands</div>
+      </div>
+      <div>
+        <div class="hero-stat-num">£10</div>
+        <div class="hero-stat-label">4 Liquids Deal</div>
+      </div>
+      <div>
+        <div class="hero-stat-num">18+</div>
+        <div class="hero-stat-label">Age Verified</div>
+      </div>
+      <div>
+        <div class="hero-stat-num">C25</div>
+        <div class="hero-stat-label">Challenge 25</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════ WHY CHOOSE -->
+<section id="why">
+  <div class="section-inner">
+    <p class="section-eyebrow reveal">Why Vapo UK</p>
+    <h2 class="section-title reveal">The difference is in<br>the details.</h2>
+    <p class="section-sub reveal">We combine the best brands with genuine local knowledge. No online guesswork — just proper, friendly expertise.</p>
+
+    <div class="why-grid">
+      <div class="why-card reveal">
+        <div class="why-icon">🏆</div>
+        <h3>Premium Brands</h3>
+        <p>Stocking the UK's leading vape manufacturers, from Elf Bar to Geek Vape, IVG to Vaporesso — all under one roof.</p>
+      </div>
+      <div class="why-card reveal reveal-delay-1">
+        <div class="why-icon">💬</div>
+        <h3>Expert Advice</h3>
+        <p>Our friendly, knowledgeable team are here to help you find the perfect device and liquid — whether you're switching from cigarettes or upgrading your setup.</p>
+      </div>
+      <div class="why-card reveal reveal-delay-2">
+        <div class="why-icon">💷</div>
+        <h3>Great Value</h3>
+        <p>Competitive everyday pricing with exclusive in-store deals. Because quality vaping shouldn't cost a fortune.</p>
+      </div>
+      <div class="why-card reveal reveal-delay-3">
+        <div class="why-icon">📍</div>
+        <h3>Trusted Local Retailer</h3>
+        <p>Proudly serving Accrington and the surrounding Lancashire community. We're your neighbours — and we take that seriously.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════ OFFER -->
+<section id="offer">
+  <div class="section-inner">
+    <p class="section-eyebrow reveal">Current In-Store Deal</p>
+    <h2 class="section-title reveal">An offer worth<br>coming in for.</h2>
+
+    <div class="offer-card reveal">
+
+      <div class="offer-top-bar">🔥 &nbsp;Limited Time — In-Store Only</div>
+
+      <div class="offer-body">
+        <div class="offer-left">
+          <span class="offer-tag">E-Liquids Deal</span>
+          <h3 class="offer-headline">Any 4 Freebase or<br>Nic Salt E-Liquids</h3>
+          <p class="offer-desc">Mix and match from our full range. Choose your favourite flavours across all our top brands — all at one unbeatable price. Available in-store at 133 Henry Street, Accrington.</p>
+          <a href="tel:01254917777" class="btn-primary" style="width:fit-content;">📞 Call to Check Stock</a>
+          <div class="offer-meta">
+            <span>📍 In-store only</span>
+            <span class="offer-meta-dot"></span>
+            <span>While stocks last</span>
+            <span class="offer-meta-dot"></span>
+            <span>Mix &amp; match brands</span>
+          </div>
+        </div>
+
+        <div class="offer-right">
+          <div class="offer-for-label">All for just</div>
+          <div class="offer-any4">Any 4 Liquids</div>
+          <div class="offer-big-price"><sup>£</sup>10</div>
+          <div class="offer-stocks">In-store · While stocks last</div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════ BRANDS -->
+<section id="brands">
+  <div class="section-inner">
+    <p class="section-eyebrow reveal">What We Stock</p>
+    <h2 class="section-title reveal">The UK's best brands.<br>In stock. Today.</h2>
+    <p class="section-sub reveal">We carry 13+ of the most trusted names in vaping — from premium pod kits to the latest disposable ranges.</p>
+
+    <div class="brands-marquee-wrap reveal">
+
+      <!-- Row 1 scrolls left -->
+      <div class="brands-marquee-row">
+        <div class="brands-marquee-track">
+
+          <div class="brand-pill">
+            <span class="bp-icon"><!-- Vampire: cape character -->
+              <svg width="22" height="26" viewBox="0 0 22 26" fill="none"><circle cx="11" cy="7" r="5" fill="#e8e8e8"/><path d="M3 13 Q11 9 19 13 L21 26 Q11 20 1 26Z" fill="#9b59b6"/><path d="M3 13 L6 8 L9 12" fill="#6c3483"/><path d="M19 13 L16 8 L13 12" fill="#6c3483"/><path d="M8.5 10 L7 14 L9.5 12.5 L11 14 L11 10" fill="white"/></svg>
+            </span>
+            <span class="bp-name"><em>Vampire</em> Vape</span><span class="bp-dot"></span>
+          </div>
+
+          <div class="brand-pill">
+            <span class="bp-icon"><!-- IVG: orange lightning bolt -->
+              <svg width="16" height="26" viewBox="0 0 16 26" fill="none"><path d="M9 0L0 15H7L5 26L16 9H9Z" fill="#FF8C00"/></svg>
+            </span>
+            <span class="bp-name" style="letter-spacing:0.18em"><em>IVG</em></span><span class="bp-dot"></span>
+          </div>
+
+          <div class="brand-pill">
+            <span class="bp-icon"><!-- Lost Mary: red cherries -->
+              <svg width="28" height="26" viewBox="0 0 28 26" fill="none"><circle cx="8" cy="18" r="6" fill="#e74c3c"/><circle cx="20" cy="18" r="6" fill="#c0392b"/><path d="M8 12 Q8 4 14 3 Q20 2 20 12" stroke="#27ae60" stroke-width="2" fill="none" stroke-linecap="round"/><path d="M14 3 Q18 1 22 4" stroke="#27ae60" stroke-width="1.5" fill="none" stroke-linecap="round"/></svg>
+            </span>
+            <span class="bp-name">Lost <em>Mary</em></span><span class="bp-dot"></span>
+          </div>
+
+          <div class="brand-pill">
+            <span class="bp-icon"><!-- Hayati: green/purple snake -->
+              <svg width="20" height="28" viewBox="0 0 20 28" fill="none"><path d="M10 26 Q2 22 2 16 Q2 10 8 10 Q14 10 14 14 Q14 18 10 18 Q6 18 6 15" stroke="#8e44ad" stroke-width="3" fill="none" stroke-linecap="round"/><circle cx="10" cy="5" r="4" fill="#27ae60"/><path d="M8 3 L6 1 M12 3 L14 1" stroke="#1e8449" stroke-width="1.5" stroke-linecap="round"/><circle cx="8.5" cy="5" r="1" fill="#1a1a1a"/><circle cx="11.5" cy="5" r="1" fill="#1a1a1a"/></svg>
+            </span>
+            <span class="bp-name"><em>Hayati</em></span><span class="bp-dot"></span>
+          </div>
+
+          <div class="brand-pill">
+            <span class="bp-icon"><!-- Elux: three 4-pointed stars -->
+              <svg width="30" height="26" viewBox="0 0 30 26" fill="none">
+                <path d="M15 2 L16.5 8 L22 8 L17.5 11.5 L19 17 L15 14 L11 17 L12.5 11.5 L8 8 L13.5 8Z" fill="#f39c12"/>
+                <path d="M5 8 L5.8 11 L9 11 L6.5 12.8 L7.3 16 L5 14.3 L2.7 16 L3.5 12.8 L1 11 L4.2 11Z" fill="#f1c40f" opacity="0.8"/>
+                <path d="M25 6 L25.7 9 L28 9 L26.1 10.4 L26.8 13 L25 11.8 L23.2 13 L23.9 10.4 L22 9 L24.3 9Z" fill="#e67e22" opacity="0.7"/>
+              </svg>
+            </span>
+            <span class="bp-name"><em>Elux</em></span><span class="bp-dot"></span>
+          </div>
+
+          <div class="brand-pill">
+            <span class="bp-icon"><!-- Bar Juice: cocktail glass -->
+              <svg width="22" height="28" viewBox="0 0 22 28" fill="none"><path d="M3 4 L11 16 L19 4Z" fill="none" stroke="#e67e22" stroke-width="1.5"/><rect x="9.5" y="16" width="3" height="6" fill="#e67e22" opacity="0.7"/><rect x="5" y="22" width="12" height="2" rx="1" fill="#e67e22" opacity="0.5"/><ellipse cx="11" cy="13" rx="5" ry="3" fill="#f39c12" opacity="0.5"/><line x1="14" y1="5" x2="16" y2="20" stroke="#27ae60" stroke-width="1.5" stroke-linecap="round"/><circle cx="16" cy="21" r="2" fill="#27ae60"/></svg>
+            </span>
+            <span class="bp-name">Bar <em>Juice</em></span><span class="bp-dot"></span>
+          </div>
+
+          <div class="brand-pill">
+            <span class="bp-icon"><!-- Elf Bar: blond avatar character -->
+              <svg width="22" height="26" viewBox="0 0 22 26" fill="none"><circle cx="11" cy="11" r="8" fill="#f5cba7"/><path d="M3 8 Q5 2 11 2 Q17 2 19 8 Q16 5 11 6 Q6 7 3 8Z" fill="#f1c40f"/><circle cx="8" cy="11" r="1.2" fill="#5d4037"/><circle cx="14" cy="11" r="1.2" fill="#5d4037"/><path d="M8 15 Q11 17 14 15" stroke="#c0392b" stroke-width="1.5" fill="none" stroke-linecap="round"/><rect x="7" y="19" width="8" height="7" rx="2" fill="#3498db"/></svg>
+            </span>
+            <span class="bp-name"><em>Elf</em> Bar</span><span class="bp-dot"></span>
+          </div>
+
+          <!-- DUPLICATE ROW 1 for seamless loop -->
+          <div class="brand-pill"><span class="bp-icon"><svg width="22" height="26" viewBox="0 0 22 26" fill="none"><circle cx="11" cy="7" r="5" fill="#e8e8e8"/><path d="M3 13 Q11 9 19 13 L21 26 Q11 20 1 26Z" fill="#9b59b6"/><path d="M3 13 L6 8 L9 12" fill="#6c3483"/><path d="M19 13 L16 8 L13 12" fill="#6c3483"/><path d="M8.5 10 L7 14 L9.5 12.5 L11 14 L11 10" fill="white"/></svg></span><span class="bp-name"><em>Vampire</em> Vape</span><span class="bp-dot"></span></div>
+          <div class="brand-pill"><span class="bp-icon"><svg width="16" height="26" viewBox="0 0 16 26" fill="none"><path d="M9 0L0 15H7L5 26L16 9H9Z" fill="#FF8C00"/></svg></span><span class="bp-name" style="letter-spacing:0.18em"><em>IVG</em></span><span class="bp-dot"></span></div>
+          <div class="brand-pill"><span class="bp-icon"><svg width="28" height="26" viewBox="0 0 28 26" fill="none"><circle cx="8" cy="18" r="6" fill="#e74c3c"/><circle cx="20" cy="18" r="6" fill="#c0392b"/><path d="M8 12 Q8 4 14 3 Q20 2 20 12" stroke="#27ae60" stroke-width="2" fill="none" stroke-linecap="round"/><path d="M14 3 Q18 1 22 4" stroke="#27ae60" stroke-width="1.5" fill="none" stroke-linecap="round"/></svg></span><span class="bp-name">Lost <em>Mary</em></span><span class="bp-dot"></span></div>
+          <div class="brand-pill"><span class="bp-icon"><svg width="20" height="28" viewBox="0 0 20 28" fill="none"><path d="M10 26 Q2 22 2 16 Q2 10 8 10 Q14 10 14 14 Q14 18 10 18 Q6 18 6 15" stroke="#8e44ad" stroke-width="3" fill="none" stroke-linecap="round"/><circle cx="10" cy="5" r="4" fill="#27ae60"/><circle cx="8.5" cy="5" r="1" fill="#1a1a1a"/><circle cx="11.5" cy="5" r="1" fill="#1a1a1a"/></svg></span><span class="bp-name"><em>Hayati</em></span><span class="bp-dot"></span></div>
+          <div class="brand-pill"><span class="bp-icon"><svg width="30" height="26" viewBox="0 0 30 26" fill="none"><path d="M15 2 L16.5 8 L22 8 L17.5 11.5 L19 17 L15 14 L11 17 L12.5 11.5 L8 8 L13.5 8Z" fill="#f39c12"/><path d="M5 8 L5.8 11 L9 11 L6.5 12.8 L7.3 16 L5 14.3 L2.7 16 L3.5 12.8 L1 11 L4.2 11Z" fill="#f1c40f" opacity="0.8"/><path d="M25 6 L25.7 9 L28 9 L26.1 10.4 L26.8 13 L25 11.8 L23.2 13 L23.9 10.4 L22 9 L24.3 9Z" fill="#e67e22" opacity="0.7"/></svg></span><span class="bp-name"><em>Elux</em></span><span class="bp-dot"></span></div>
+          <div class="brand-pill"><span class="bp-icon"><svg width="22" height="28" viewBox="0 0 22 28" fill="none"><path d="M3 4 L11 16 L19 4Z" fill="none" stroke="#e67e22" stroke-width="1.5"/><rect x="9.5" y="16" width="3" height="6" fill="#e67e22" opacity="0.7"/><rect x="5" y="22" width="12" height="2" rx="1" fill="#e67e22" opacity="0.5"/><ellipse cx="11" cy="13" rx="5" ry="3" fill="#f39c12" opacity="0.5"/><line x1="14" y1="5" x2="16" y2="20" stroke="#27ae60" stroke-width="1.5" stroke-linecap="round"/><circle cx="16" cy="21" r="2" fill="#27ae60"/></svg></span><span class="bp-name">Bar <em>Juice</em></span><span class="bp-dot"></span></div>
+          <div class="brand-pill"><span class="bp-icon"><svg width="22" height="26" viewBox="0 0 22 26" fill="none"><circle cx="11" cy="11" r="8" fill="#f5cba7"/><path d="M3 8 Q5 2 11 2 Q17 2 19 8 Q16 5 11 6 Q6 7 3 8Z" fill="#f1c40f"/><circle cx="8" cy="11" r="1.2" fill="#5d4037"/><circle cx="14" cy="11" r="1.2" fill="#5d4037"/><path d="M8 15 Q11 17 14 15" stroke="#c0392b" stroke-width="1.5" fill="none" stroke-linecap="round"/><rect x="7" y="19" width="8" height="7" rx="2" fill="#3498db"/></svg></span><span class="bp-name"><em>Elf</em> Bar</span><span class="bp-dot"></span></div>
+
+        </div>
+      </div>
+
+      <!-- Row 2 scrolls right -->
+      <div class="brands-marquee-row" style="margin-top:1px">
+        <div class="brands-marquee-track">
+
+          <div class="brand-pill">
+            <span class="bp-icon"><!-- Elifliq: blue diamond -->
+              <svg width="22" height="26" viewBox="0 0 22 26" fill="none"><path d="M11 2 L20 10 L11 24 L2 10Z" fill="#2980b9"/><path d="M11 2 L20 10 L11 14Z" fill="#3498db"/><path d="M11 2 L2 10 L11 14Z" fill="#1a5276"/><path d="M2 10 L11 14 L20 10" fill="#2471a3" opacity="0.6"/></svg>
+            </span>
+            <span class="bp-name"><em>Elifliq</em></span><span class="bp-dot"></span>
+          </div>
+
+          <div class="brand-pill">
+            <span class="bp-icon"><!-- Geek Vape: white cogwheel -->
+              <svg width="26" height="26" viewBox="0 0 26 26" fill="none"><circle cx="13" cy="13" r="4" fill="none" stroke="white" stroke-width="2"/><path d="M13 2 L14.5 5.5 L18 4 L17.5 7.5 L21 8 L19 11 L22 13 L19 15 L21 18 L17.5 18.5 L18 22 L14.5 20.5 L13 24 L11.5 20.5 L8 22 L8.5 18.5 L5 18 L7 15 L4 13 L7 11 L5 8 L8.5 7.5 L8 4 L11.5 5.5Z" fill="white" opacity="0.9"/><circle cx="13" cy="13" r="3.5" fill="#1a1a1a"/></svg>
+            </span>
+            <span class="bp-name">Geek <em>Vape</em></span><span class="bp-dot"></span>
+          </div>
+
+          <div class="brand-pill">
+            <span class="bp-icon"><!-- OXVA: solid orange diamond -->
+              <svg width="24" height="26" viewBox="0 0 24 26" fill="none"><path d="M12 2 L22 13 L12 24 L2 13Z" fill="#FF6600"/><path d="M12 2 L22 13 L12 13Z" fill="#FF8C00"/><path d="M12 2 L2 13 L12 13Z" fill="#E65C00"/></svg>
+            </span>
+            <span class="bp-name" style="letter-spacing:0.16em"><em>OXVA</em></span><span class="bp-dot"></span>
+          </div>
+
+          <div class="brand-pill">
+            <span class="bp-icon"><!-- Vaporesso: blue wave / V shape -->
+              <svg width="30" height="22" viewBox="0 0 30 22" fill="none"><path d="M2 6 Q7 18 15 18 Q23 18 28 6" stroke="#2196F3" stroke-width="3.5" fill="none" stroke-linecap="round"/><path d="M7 4 Q11 14 15 18 Q19 14 23 4" stroke="#1565C0" stroke-width="2" fill="none" stroke-linecap="round"/></svg>
+            </span>
+            <span class="bp-name"><em>Vaporesso</em></span><span class="bp-dot"></span>
+          </div>
+
+          <div class="brand-pill">
+            <span class="bp-icon"><!-- Crystal: cyan/light blue diamond -->
+              <svg width="22" height="26" viewBox="0 0 22 26" fill="none"><path d="M11 2 L20 10 L11 24 L2 10Z" fill="#00BCD4"/><path d="M11 2 L20 10 L11 14Z" fill="#4DD0E1"/><path d="M11 2 L2 10 L11 14Z" fill="#0097A7"/><path d="M2 10 L11 14 L20 10" fill="#006064" opacity="0.5"/><path d="M11 2 L13 6 L11 8 L9 6Z" fill="white" opacity="0.5"/></svg>
+            </span>
+            <span class="bp-name">SKE <em>Crystal</em></span><span class="bp-dot"></span>
+          </div>
+
+          <div class="brand-pill">
+            <span class="bp-icon"><!-- VooPoo: stylized wolf/fox head -->
+              <svg width="26" height="26" viewBox="0 0 26 26" fill="none"><path d="M13 4 L5 8 L3 16 L7 20 L13 22 L19 20 L23 16 L21 8Z" fill="#e0e0e0"/><path d="M5 8 L2 2 L8 7Z" fill="#bdbdbd"/><path d="M21 8 L24 2 L18 7Z" fill="#bdbdbd"/><circle cx="9" cy="13" r="2" fill="#333"/><circle cx="17" cy="13" r="2" fill="#333"/><circle cx="9.5" cy="12.5" r="0.7" fill="white"/><circle cx="17.5" cy="12.5" r="0.7" fill="white"/><path d="M10 17 Q13 19 16 17" stroke="#aaa" stroke-width="1.5" fill="none" stroke-linecap="round"/><ellipse cx="13" cy="15" rx="2" ry="1.2" fill="#f8bbd9" opacity="0.6"/></svg>
+            </span>
+            <span class="bp-name"><em>Voo</em>Poo</span><span class="bp-dot"></span>
+          </div>
+
+          <!-- DUPLICATE ROW 2 for seamless loop -->
+          <div class="brand-pill"><span class="bp-icon"><svg width="22" height="26" viewBox="0 0 22 26" fill="none"><path d="M11 2 L20 10 L11 24 L2 10Z" fill="#2980b9"/><path d="M11 2 L20 10 L11 14Z" fill="#3498db"/><path d="M11 2 L2 10 L11 14Z" fill="#1a5276"/></svg></span><span class="bp-name"><em>Elifliq</em></span><span class="bp-dot"></span></div>
+          <div class="brand-pill"><span class="bp-icon"><svg width="26" height="26" viewBox="0 0 26 26" fill="none"><path d="M13 2 L14.5 5.5 L18 4 L17.5 7.5 L21 8 L19 11 L22 13 L19 15 L21 18 L17.5 18.5 L18 22 L14.5 20.5 L13 24 L11.5 20.5 L8 22 L8.5 18.5 L5 18 L7 15 L4 13 L7 11 L5 8 L8.5 7.5 L8 4 L11.5 5.5Z" fill="white" opacity="0.9"/><circle cx="13" cy="13" r="3.5" fill="#1a1a1a"/></svg></span><span class="bp-name">Geek <em>Vape</em></span><span class="bp-dot"></span></div>
+          <div class="brand-pill"><span class="bp-icon"><svg width="24" height="26" viewBox="0 0 24 26" fill="none"><path d="M12 2 L22 13 L12 24 L2 13Z" fill="#FF6600"/><path d="M12 2 L22 13 L12 13Z" fill="#FF8C00"/><path d="M12 2 L2 13 L12 13Z" fill="#E65C00"/></svg></span><span class="bp-name" style="letter-spacing:0.16em"><em>OXVA</em></span><span class="bp-dot"></span></div>
+          <div class="brand-pill"><span class="bp-icon"><svg width="30" height="22" viewBox="0 0 30 22" fill="none"><path d="M2 6 Q7 18 15 18 Q23 18 28 6" stroke="#2196F3" stroke-width="3.5" fill="none" stroke-linecap="round"/><path d="M7 4 Q11 14 15 18 Q19 14 23 4" stroke="#1565C0" stroke-width="2" fill="none" stroke-linecap="round"/></svg></span><span class="bp-name"><em>Vaporesso</em></span><span class="bp-dot"></span></div>
+          <div class="brand-pill"><span class="bp-icon"><svg width="22" height="26" viewBox="0 0 22 26" fill="none"><path d="M11 2 L20 10 L11 24 L2 10Z" fill="#00BCD4"/><path d="M11 2 L20 10 L11 14Z" fill="#4DD0E1"/><path d="M11 2 L2 10 L11 14Z" fill="#0097A7"/><path d="M11 2 L13 6 L11 8 L9 6Z" fill="white" opacity="0.5"/></svg></span><span class="bp-name">SKE <em>Crystal</em></span><span class="bp-dot"></span></div>
+          <div class="brand-pill"><span class="bp-icon"><svg width="26" height="26" viewBox="0 0 26 26" fill="none"><path d="M13 4 L5 8 L3 16 L7 20 L13 22 L19 20 L23 16 L21 8Z" fill="#e0e0e0"/><path d="M5 8 L2 2 L8 7Z" fill="#bdbdbd"/><path d="M21 8 L24 2 L18 7Z" fill="#bdbdbd"/><circle cx="9" cy="13" r="2" fill="#333"/><circle cx="17" cy="13" r="2" fill="#333"/><path d="M10 17 Q13 19 16 17" stroke="#aaa" stroke-width="1.5" fill="none" stroke-linecap="round"/></svg></span><span class="bp-name"><em>Voo</em>Poo</span><span class="bp-dot"></span></div>
+
+        </div>
+      </div>
+
+    </div>
+
+    <p style="margin-top: 2rem; font-size: 0.85rem; color: var(--muted); text-align: center;" class="reveal">
+      Can't see what you're looking for? Call us on <a href="tel:01254917777" style="color: var(--pink); text-decoration: none;">01254 917777</a> and we'll check stock for you.
+    </p>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════ REVIEWS -->
+<section id="reviews" style="background: var(--black); padding: 100px 2rem;">
+  <div class="section-inner">
+    <p class="section-eyebrow reveal">Customer Reviews</p>
+    <h2 class="section-title reveal">What our customers say.</h2>
+    <p class="section-sub reveal">Don't just take our word for it — here's what the Accrington community thinks of Vapo UK.</p>
+
+    <div class="reviews-grid reveal" style="display:grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.25rem; margin-top: 3rem;">
+
+      <div class="review-card">
+        <div class="review-header">
+          <div class="review-avatar">JT</div>
+          <div>
+            <div class="review-name">James T.</div>
+            <div class="review-stars">★★★★★</div>
+          </div>
+          <div class="review-google-icon" title="Google Review">
+            <svg width="18" height="18" viewBox="0 0 24 24"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l3.66-2.84z" fill="#FBBC05"/><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/></svg>
+          </div>
+        </div>
+        <p class="review-text">"Best vape shop in Accrington by a mile. Staff really know their stuff and helped me find the perfect starter kit when I was trying to quit smoking. Couldn't be happier."</p>
+        <div class="review-date">2 weeks ago</div>
+      </div>
+
+      <div class="review-card">
+        <div class="review-header">
+          <div class="review-avatar" style="background: linear-gradient(135deg, #8e44ad, #3498db);">SK</div>
+          <div>
+            <div class="review-name">Sarah K.</div>
+            <div class="review-stars">★★★★★</div>
+          </div>
+          <div class="review-google-icon" title="Google Review">
+            <svg width="18" height="18" viewBox="0 0 24 24"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l3.66-2.84z" fill="#FBBC05"/><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/></svg>
+          </div>
+        </div>
+        <p class="review-text">"The 4 liquids for £10 deal is incredible value. Always pop in on my way through town. Great selection of flavours and the staff are always friendly and helpful."</p>
+        <div class="review-date">1 month ago</div>
+      </div>
+
+      <div class="review-card">
+        <div class="review-header">
+          <div class="review-avatar" style="background: linear-gradient(135deg, #27ae60, #16a085);">MR</div>
+          <div>
+            <div class="review-name">Mohammed R.</div>
+            <div class="review-stars">★★★★★</div>
+          </div>
+          <div class="review-google-icon" title="Google Review">
+            <svg width="18" height="18" viewBox="0 0 24 24"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l3.66-2.84z" fill="#FBBC05"/><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/></svg>
+          </div>
+        </div>
+        <p class="review-text">"Huge selection of brands — they stock everything. Picked up a Geek Vape kit and got great advice on which coils to use. This is my go-to shop now. Highly recommend."</p>
+        <div class="review-date">3 weeks ago</div>
+      </div>
+
+      <div class="review-card">
+        <div class="review-header">
+          <div class="review-avatar" style="background: linear-gradient(135deg, #e67e22, #d35400);">LC</div>
+          <div>
+            <div class="review-name">Lisa C.</div>
+            <div class="review-stars">★★★★★</div>
+          </div>
+          <div class="review-google-icon" title="Google Review">
+            <svg width="18" height="18" viewBox="0 0 24 24"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l3.66-2.84z" fill="#FBBC05"/><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/></svg>
+          </div>
+        </div>
+        <p class="review-text">"Switched from smoking last year and this place made it so easy. They took the time to explain everything and didn't make me feel rushed. Brilliant local shop, keep it up!"</p>
+        <div class="review-date">6 weeks ago</div>
+      </div>
+
+      <div class="review-card">
+        <div class="review-header">
+          <div class="review-avatar" style="background: linear-gradient(135deg, #c0392b, #e74c3c);">DP</div>
+          <div>
+            <div class="review-name">Dan P.</div>
+            <div class="review-stars">★★★★★</div>
+          </div>
+          <div class="review-google-icon" title="Google Review">
+            <svg width="18" height="18" viewBox="0 0 24 24"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l3.66-2.84z" fill="#FBBC05"/><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/></svg>
+          </div>
+        </div>
+        <p class="review-text">"Always well stocked with the latest Lost Mary and Elf Bar flavours. Prices are fair and the deals are great. Nice clean shop, decent parking nearby too. Will keep coming back."</p>
+        <div class="review-date">1 month ago</div>
+      </div>
+
+    </div>
+
+    <div style="text-align:center; margin-top:2rem;" class="reveal">
+      <a href="https://g.page/r/vapouk/review" target="_blank" rel="noopener noreferrer" class="btn-secondary" style="display:inline-flex; align-items:center; gap:0.5rem;">
+        <svg width="16" height="16" viewBox="0 0 24 24" style="flex-shrink:0"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l3.66-2.84z" fill="#FBBC05"/><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/></svg>
+        Leave us a Google Review
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════ LOYALTY -->
+<section id="loyalty">
+  <div class="section-inner">
+    <p class="section-eyebrow reveal">Loyalty Programme</p>
+    <h2 class="section-title reveal">Get rewarded every<br>time you shop.</h2>
+
+    <div class="loyalty-grid">
+      <div>
+        <p class="section-sub reveal">Our loyalty scheme is our way of saying thank you. Shop regularly, earn rewards, and enjoy exclusive perks — just for being a Vapo UK customer.</p>
+
+        <div class="loyalty-features">
+          <div class="loyalty-feature reveal">
+            <div class="loyalty-feature-icon">🛒</div>
+            <div>
+              <h4>Earn With Every Purchase</h4>
+              <p>Collect stamps each time you shop in-store. The more you buy, the faster you earn.</p>
+            </div>
+          </div>
+          <div class="loyalty-feature reveal reveal-delay-1">
+            <div class="loyalty-feature-icon">🎁</div>
+            <div>
+              <h4>Exclusive Member Benefits</h4>
+              <p>Access deals and promotions available only to loyalty scheme members.</p>
+            </div>
+          </div>
+          <div class="loyalty-feature reveal reveal-delay-2">
+            <div class="loyalty-feature-icon">⭐</div>
+            <div>
+              <h4>Customer Loyalty Perks</h4>
+              <p>The longer you shop with us, the better the rewards get. Loyalty is always valued here.</p>
+            </div>
+          </div>
+          <div class="loyalty-feature reveal reveal-delay-3">
+            <div class="loyalty-feature-icon">📍</div>
+            <div>
+              <h4>Easy to Join In-Store</h4>
+              <p>Just visit us at 133 Henry Street and ask a member of staff to get you signed up. No apps, no fuss.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="loyalty-card-visual reveal">
+        <div class="loyalty-card-title">Vapo UK Rewards</div>
+        <div class="loyalty-card-sub">Your loyalty card</div>
+
+        <div class="loyalty-stamps">
+          <div class="stamp filled">✓</div>
+          <div class="stamp filled">✓</div>
+          <div class="stamp filled">✓</div>
+          <div class="stamp filled">✓</div>
+          <div class="stamp filled">✓</div>
+          <div class="stamp filled">✓</div>
+          <div class="stamp filled">✓</div>
+          <div class="stamp empty"></div>
+          <div class="stamp empty"></div>
+          <div class="stamp empty"></div>
+        </div>
+
+        <div class="loyalty-progress-label">7 of 10 stamps collected — 3 more for your reward!</div>
+
+        <div style="margin-top: 1.5rem;">
+          <div style="font-size: 0.75rem; color: var(--muted); text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 0.4rem;">Progress to reward</div>
+          <div style="background: rgba(255,255,255,0.08); border-radius: 100px; height: 8px; overflow: hidden;">
+            <div style="background: linear-gradient(90deg, #EC008C, #ff6ec7); height: 100%; width: 70%; border-radius: 100px;"></div>
+          </div>
+        </div>
+
+        <div class="loyalty-card-footer">
+          <div style="font-weight: 700; color: var(--white); margin-bottom: 0.25rem;">
+            <svg viewBox="0 0 200 80" fill="none" xmlns="http://www.w3.org/2000/svg" style="height: 24px; vertical-align: middle;">
+              <text x="0" y="62" font-family="Inter, sans-serif" font-weight="900" font-size="66" fill="white">Vapo</text>
+              <text x="113" y="78" font-family="Inter, sans-serif" font-weight="900" font-size="32" fill="#EC008C">UK</text>
+            </svg>
+          </div>
+          <div>Ask in-store to join the rewards scheme</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════ AGE VERIFICATION -->
+<section id="age">
+  <div class="section-inner">
+    <p class="section-eyebrow reveal">Responsible Retailing</p>
+    <h2 class="section-title reveal">Strict Challenge 25 Policy.</h2>
+    <p class="section-sub reveal">We take our responsibilities seriously. Our team are trained to ask for ID, and we're proud of it.</p>
+
+    <div class="age-poster-card reveal" style="margin-top: 3rem;">
+      <div class="age-grid">
+        <div>
+          <div class="age-18-badge">18+</div>
+          <div class="age-tagline">It's not personal.<br><span class="pink">It's the law.</span></div>
+          <div class="age-legal">It is a criminal offence to purchase electronic or disposable e-cigarettes, or any associated liquids, on behalf of a child.</div>
+
+          <div class="age-points">
+            <div class="age-point">We operate a strict Challenge 25 policy in-store at all times.</div>
+            <div class="age-point">Any customer who appears to be under 25 may be asked to provide valid photo identification.</div>
+            <div class="age-point">All vape products are strictly for adults aged 18 and over.</div>
+            <div class="age-point">Purchasing vape products on behalf of minors is a criminal offence under UK law.</div>
+          </div>
+
+          <div class="id-section">
+            <h4>Acceptable Forms of ID</h4>
+            <div class="id-chips">
+              <span class="id-chip">🛂 Passport</span>
+              <span class="id-chip">🚗 Photo Driving Licence</span>
+              <span class="id-chip">🎖 Military ID</span>
+              <span class="id-chip">✅ PASS Approved Card</span>
+            </div>
+          </div>
+        </div>
+
+        <div style="display: flex; align-items: center; justify-content: center;">
+          <div style="text-align: center; padding: 2rem;">
+            <div style="width: 180px; height: 180px; background: rgba(236,0,140,0.1); border: 3px solid rgba(236,0,140,0.3); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 1.5rem; position: relative;">
+              <div style="font-size: 3.5rem; font-weight: 900; color: var(--pink); font-family: var(--font);">25</div>
+              <div style="position: absolute; bottom: -10px; left: 50%; transform: translateX(-50%); background: var(--pink); color: white; font-size: 0.65rem; font-weight: 800; letter-spacing: 0.08em; text-transform: uppercase; padding: 0.25rem 0.75rem; border-radius: 100px; white-space: nowrap;">Challenge 25</div>
+            </div>
+            <p style="font-size: 0.85rem; color: rgba(255,255,255,0.5); max-width: 200px; margin: 0 auto; line-height: 1.6;">If you look under 25, we will ask for ID. No exceptions.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════ STORE -->
+<section id="store">
+  <div class="section-inner">
+    <p class="section-eyebrow reveal">Find Us</p>
+    <h2 class="section-title reveal">We're right here<br>in Accrington.</h2>
+    <p class="section-sub reveal">Pop in and see us. Our team is always on hand to help you find exactly what you need.</p>
+
+    <div class="store-grid">
+      <div>
+        <div class="store-info-cards reveal">
+          <div class="store-info-card">
+            <span class="store-info-icon">📍</span>
+            <div>
+              <h4>Visit Us</h4>
+              <address style="font-style:normal"><p>133 Henry Street<br>Accrington<br>BB5 4EP</p></address>
+            </div>
+          </div>
+          <div class="store-info-card">
+            <span class="store-info-icon">📞</span>
+            <div>
+              <h4>Call Us</h4>
+              <a href="tel:01254917777">01254 917777</a>
+            </div>
+          </div>
+          <div class="store-info-card">
+            <span class="store-info-icon">✉️</span>
+            <div>
+              <h4>Email Us</h4>
+              <a href="mailto:hello@vapouk.co.uk">hello@vapouk.co.uk</a>
+            </div>
+          </div>
+          <div class="store-info-card">
+            <span class="store-info-icon">🕐</span>
+            <div>
+              <h4>Opening Hours</h4>
+              <div class="hours-grid">
+                <div class="hours-row"><span class="day">Monday</span><span>9am – 6pm</span></div>
+                <div class="hours-row"><span class="day">Tuesday</span><span>9am – 6pm</span></div>
+                <div class="hours-row"><span class="day">Wednesday</span><span>9am – 6pm</span></div>
+                <div class="hours-row"><span class="day">Thursday</span><span>9am – 6pm</span></div>
+                <div class="hours-row"><span class="day">Friday</span><span>9am – 6pm</span></div>
+                <div class="hours-row"><span class="day">Saturday</span><span>9am – 5pm</span></div>
+                <div class="hours-row"><span class="day">Sunday</span><span>Closed</span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="store-actions reveal">
+          <a href="tel:01254917777" class="btn-primary">📞 Call Now</a>
+          <a href="https://maps.google.com/?q=133+Henry+Street+Accrington+BB5+4EP" target="_blank" rel="noopener noreferrer" class="btn-secondary">🗺 Get Directions</a>
+        </div>
+      </div>
+
+      <a href="https://maps.google.com/?q=133+Henry+Street,+Accrington,+BB5+4EP"
+         target="_blank" rel="noopener noreferrer"
+         class="map-card reveal" aria-label="Open Vapo UK in Google Maps">
+
+        <!-- Decorative map pin graphic -->
+        <div class="map-card-bg">
+          <div class="map-pin-ring map-pin-ring-1"></div>
+          <div class="map-pin-ring map-pin-ring-2"></div>
+          <div class="map-pin-ring map-pin-ring-3"></div>
+          <svg class="map-pin-icon" viewBox="0 0 24 24" fill="none">
+            <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z" fill="#EC008C"/>
+            <circle cx="12" cy="9" r="2.5" fill="white"/>
+          </svg>
+        </div>
+
+        <div class="map-card-content">
+          <div class="map-card-label">📍 Find Us In Store</div>
+          <div class="map-card-address">
+            <strong>133 Henry Street</strong><br>
+            Accrington<br>
+            BB5 4EP
+          </div>
+          <div class="map-card-cta">
+            Open in Google Maps
+            <svg viewBox="0 0 20 20" fill="currentColor" style="width:14px;height:14px;display:inline;margin-left:6px;vertical-align:middle">
+              <path fill-rule="evenodd" d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z" clip-rule="evenodd"/>
+            </svg>
+          </div>
+        </div>
+
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════ LOCAL SEO CONTENT -->
+<section id="seo-content">
+  <div class="section-inner">
+    <p class="section-eyebrow reveal">Accrington's Vape Specialists</p>
+    <h2 class="section-title reveal">Your local vape shop<br>in Lancashire.</h2>
+
+    <div class="seo-content-grid">
+      <div class="seo-content-block reveal">
+        <h3>Vape Shop Accrington</h3>
+        <p>Vapo UK is Accrington's go-to vape destination. Located on Henry Street in the heart of town, we stock everything from starter kits for those making the switch from cigarettes, to advanced devices for experienced vapers. Whether you're looking for a simple pod system or a high-powered mod, our team is here to guide you to the right choice.</p>
+      </div>
+      <div class="seo-content-block reveal reveal-delay-1">
+        <h3>E-Liquids & Nic Salts in Accrington</h3>
+        <p>We carry an extensive range of freebase e-liquids and nic salts from the UK's most trusted manufacturers. From fruity, menthol and dessert flavours to tobacco blends — available in a wide variety of nicotine strengths. Don't forget our exclusive deal: any 4 liquids for just £10, in-store only.</p>
+      </div>
+      <div class="seo-content-block reveal reveal-delay-2">
+        <h3>Disposable Vapes in Accrington</h3>
+        <p>Looking for a convenient, no-fuss vaping experience? We stock a wide range of disposable vapes from leading brands including Elf Bar, Lost Mary, Hayati, Elux and more. Stop by and our team will help you find the best disposable for your needs and nicotine preference.</p>
+      </div>
+      <div class="seo-content-block reveal reveal-delay-3">
+        <h3>Vape Kits & Devices in Lancashire</h3>
+        <p>From beginner-friendly starter kits to advanced vape mods, Vapo UK stocks a curated selection of premium hardware from Geek Vape, OXVA, Vaporesso, VooPoo and more. We serve customers from across Accrington, Blackburn, Burnley, Hyndburn and the wider Lancashire area.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════ FOOTER -->
+<footer>
+  <div class="footer-inner">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <svg viewBox="0 0 260 110" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <text x="0" y="80" font-family="Inter, sans-serif" font-weight="900" font-size="88" fill="white">Vapo</text>
+          <text x="148" y="108" font-family="Inter, sans-serif" font-weight="900" font-size="42" fill="#EC008C">UK</text>
+        </svg>
+        <p>Accrington's trusted vape destination. Premium brands, expert advice, and unbeatable value. Visit us at 133 Henry Street, Accrington, BB5 4EP.</p>
+        <div class="social-links">
+          <a href="https://www.facebook.com/vapouk" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="Facebook">f</a>
+          <a href="https://www.instagram.com/vapouk" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="Instagram">📸</a>
+          <a href="https://www.tiktok.com/@vapouk" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="TikTok">♪</a>
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <h4>Navigate</h4>
+        <ul class="footer-links">
+          <li><a href="#why">Why Choose Us</a></li>
+          <li><a href="#offer">Current Offers</a></li>
+          <li><a href="#brands">Brands We Stock</a></li>
+          <li><a href="#loyalty">Loyalty Rewards</a></li>
+          <li><a href="#age">Responsible Retailing</a></li>
+          <li><a href="#store">Find the Store</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Products</h4>
+        <ul class="footer-links">
+          <li><a href="#brands">Vape Kits & Mods</a></li>
+          <li><a href="#brands">Disposable Vapes</a></li>
+          <li><a href="#brands">E-Liquids & Nic Salts</a></li>
+          <li><a href="#brands">Pod Systems</a></li>
+          <li><a href="#brands">Coils & Accessories</a></li>
+          <li><a href="#offer">Current Deals</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <div class="footer-contact-item">📍 <span>133 Henry Street, Accrington, BB5 4EP</span></div>
+        <div class="footer-contact-item">📞 <a href="tel:01254917777">01254 917777</a></div>
+        <div class="footer-contact-item">✉️ <a href="mailto:hello@vapouk.co.uk">hello@vapouk.co.uk</a></div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>© 2026 Vapo UK. All rights reserved. 133 Henry Street, Accrington BB5 4EP.</p>
+      <div class="footer-bottom-links">
+        <a href="mailto:hello@vapouk.co.uk?subject=Privacy Policy Request">Privacy Policy</a>
+        <a href="mailto:hello@vapouk.co.uk?subject=Terms & Conditions Request">Terms &amp; Conditions</a>
+        <a href="#age">Responsible Retailing</a>
+      </div>
+    </div>
+
+    <div class="responsible-notice">
+      <strong>18+ Only.</strong> Vape products are for adult use only. We operate a strict Challenge 25 policy. It is a criminal offence to purchase vape products on behalf of a person under 18. Vapo UK promotes responsible vaping.
+    </div>
+  </div>
+</footer>
+
+<!-- ═══════════════════════════════════════ CHATBOT -->
+<div id="chat-widget">
+  <div id="chat-window" class="chat-hidden">
+    <div id="chat-header">
+      <div class="chat-avatar">💬</div>
+      <div class="chat-header-info">
+        <div class="chat-header-name">Vapo UK Assistant</div>
+        <div class="chat-header-status">● Online now</div>
+      </div>
+      <button id="chat-close" onclick="toggleChat()" aria-label="Close chat">✕</button>
+    </div>
+    <div id="chat-messages"></div>
+    <div id="chat-input-row">
+      <input type="text" id="chat-input" placeholder="Ask us anything..." autocomplete="off" />
+      <button id="chat-send">Send</button>
+    </div>
+  </div>
+  <button id="chat-trigger" onclick="toggleChat()" aria-label="Open chat assistant">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+    Ask Us
+  </button>
+</div>
+
+<script>
+  /* ═══ CHATBOT ═══ */
+  const VAPO_KB = {
+    greetings: {
+      triggers: ['hello','hi','hey','hiya','morning','afternoon','evening','sup','yo'],
+      response: "Hi there! 👋 Welcome to Vapo UK. How can I help you today? You can ask me about our opening hours, location, brands we stock, current deals, or our age policy."
+    },
+    hours: {
+      triggers: ['open','hours','opening','time','times','close','closing','when','sunday','monday','tuesday','wednesday','thursday','friday','saturday','weekend'],
+      response: "🕐 **Opening Hours**\n\nMonday – Friday: 9am – 6pm\nSaturday: 9am – 5pm\nSunday: Closed\n\nWe're at 133 Henry Street, Accrington BB5 4EP."
+    },
+    location: {
+      triggers: ['where','address','location','find','directions','map','parking','accrington','henry','street','bb5'],
+      response: "📍 You can find us at:\n\n**133 Henry Street\nAccrington\nBB5 4EP**\n\nThere's parking nearby. Give us a call on 01254 917777 if you need directions!"
+    },
+    offer: {
+      triggers: ['deal','offer','price','cheap','£10','10','four','4 for','liquids','freebase','nic salt','bargain','discount','promotion'],
+      response: "🔥 **Current Deal — 4 for £10!**\n\nAny 4 freebase or nic salt e-liquids for just £10 — mix and match across all brands.\n\nIn-store only while stocks last. Call us on 01254 917777 to check what's in stock!"
+    },
+    brands: {
+      triggers: ['brand','brands','stock','sell','range','vampire','ivg','lost mary','hayati','elux','bar juice','elf bar','elifliq','geek vape','oxva','vaporesso','crystal','voopoo','ske'],
+      response: "🏷️ **Brands We Stock**\n\nVampire Vape · IVG · Lost Mary · Hayati · Elux · Bar Juice · Elf Bar · Elifliq · Geek Vape · OXVA · Vaporesso · SKE Crystal · VooPoo\n\nNot sure which is right for you? Call us on 01254 917777 and our team will help!"
+    },
+    age: {
+      triggers: ['age','18','under','id','challenge','25','verify','young','check','passport','driving','licence','pass','card'],
+      response: "🔞 **Age Policy — 18+ Only**\n\nWe operate a strict Challenge 25 policy. If you look under 25 we will ask for ID.\n\n✅ Accepted ID:\n• Passport\n• Photo Driving Licence\n• Military ID\n• PASS Approved Card\n\nAll vape products are strictly for adults aged 18+."
+    },
+    contact: {
+      triggers: ['call','phone','number','email','contact','reach','speak','talk','message'],
+      response: "📞 **Get in Touch**\n\n📱 Call: 01254 917777\n✉️ Email: hello@vapouk.co.uk\n\nWe're open Mon–Fri 9am–6pm and Sat 9am–5pm. We'd love to hear from you!"
+    },
+    products: {
+      triggers: ['disposable','kit','mod','pod','coil','juice','liquid','vape','device','starter','beginner','quitting','quit','cigarette','smoke','smoking'],
+      response: "We stock a huge range:\n\n💨 Disposable vapes\n🔧 Vape kits & mods\n💧 E-liquids & nic salts\n⚙️ Coils & accessories\n\nNot sure what's right for you? Our in-store team are experts at helping people find the perfect device — especially for those switching from cigarettes. Pop in or call 01254 917777!"
+    },
+    loyalty: {
+      triggers: ['loyalty','reward','rewards','points','card','scheme','member','membership'],
+      response: "⭐ **Loyalty Rewards**\n\nWe have a loyalty scheme — collect stamps with every purchase and earn rewards!\n\nJust ask any member of staff in-store to get signed up. No apps, no fuss — just visit us at 133 Henry Street."
+    },
+    thanks: {
+      triggers: ['thank','thanks','cheers','great','perfect','awesome','helpful','brilliant'],
+      response: "You're welcome! 😊 If you have any more questions, feel free to ask — or pop into the shop at 133 Henry Street, Accrington. We'd love to see you!"
+    }
+  };
+
+  const FALLBACK = "That's a great question! For that one, it's best to speak with our team directly — they'll be able to give you the most accurate answer.\n\n📞 **Call: 01254 917777**\n✉️ Email: hello@vapouk.co.uk\n\nWe're open Mon–Fri 9am–6pm, Sat 9am–5pm.";
+
+  let chatOpen = false;
+  let chatInit = false;
+
+  function toggleChat() {
+    chatOpen = !chatOpen;
+    const win = document.getElementById('chat-window');
+    win.classList.toggle('chat-hidden', !chatOpen);
+    if (chatOpen && !chatInit) { initChat(); chatInit = true; }
+    if (chatOpen) setTimeout(() => document.getElementById('chat-input').focus(), 300);
+  }
+
+  function initChat() {
+    addBotMessage("👋 Hi! I'm the Vapo UK assistant. I can help with opening hours, our location, brands we stock, deals, and more.\n\nWhat can I help you with?", true);
+  }
+
+  function addBotMessage(text, showQuickReplies) {
+    const msgs = document.getElementById('chat-messages');
+    const div = document.createElement('div');
+    div.className = 'chat-msg bot';
+    div.innerHTML = formatMsg(text);
+    msgs.appendChild(div);
+
+    if (showQuickReplies) {
+      const qr = document.createElement('div');
+      qr.className = 'chat-quick-replies';
+      ['Opening hours', 'Current deal', 'Find the shop', 'Brands stocked'].forEach(label => {
+        const btn = document.createElement('button');
+        btn.className = 'chat-qr';
+        btn.textContent = label;
+        btn.onclick = () => sendMessage(label);
+        qr.appendChild(btn);
+      });
+      msgs.appendChild(qr);
+    }
+    msgs.scrollTop = msgs.scrollHeight;
+  }
+
+  function addUserMessage(text) {
+    const msgs = document.getElementById('chat-messages');
+    const div = document.createElement('div');
+    div.className = 'chat-msg user';
+    div.textContent = text;
+    msgs.appendChild(div);
+    msgs.scrollTop = msgs.scrollHeight;
+  }
+
+  function showTyping() {
+    const msgs = document.getElementById('chat-messages');
+    const div = document.createElement('div');
+    div.className = 'chat-typing';
+    div.id = 'chat-typing-indicator';
+    div.innerHTML = '<span></span><span></span><span></span>';
+    msgs.appendChild(div);
+    msgs.scrollTop = msgs.scrollHeight;
+  }
+
+  function hideTyping() {
+    const el = document.getElementById('chat-typing-indicator');
+    if (el) el.remove();
+  }
+
+  function formatMsg(text) {
+    return text
+      .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
+      .replace(/\n/g, '<br>');
+  }
+
+  function getResponse(input) {
+    const lower = input.toLowerCase();
+    for (const key in VAPO_KB) {
+      const entry = VAPO_KB[key];
+      if (entry.triggers.some(t => lower.includes(t))) {
+        return entry.response;
+      }
+    }
+    return FALLBACK;
+  }
+
+  function sendMessage(text) {
+    const raw = text || document.getElementById('chat-input').value.trim();
+    if (!raw) return;
+    document.getElementById('chat-input').value = '';
+    addUserMessage(raw);
+    showTyping();
+    setTimeout(() => {
+      hideTyping();
+      const reply = getResponse(raw);
+      addBotMessage(reply, false);
+    }, 700 + Math.random() * 500);
+  }
+
+  document.getElementById('chat-send').addEventListener('click', () => sendMessage());
+  document.getElementById('chat-input').addEventListener('keydown', e => {
+    if (e.key === 'Enter') sendMessage();
+  });
+
+  /* ═══ AGE GATE ═══ */
+  (function() {
+    const verified = sessionStorage.getItem('vapouk_age_verified');
+    if (verified === 'true') {
+      document.getElementById('age-gate').classList.add('hidden');
+      showCookieBanner();
+    }
+    if (!verified) document.body.style.overflow = 'hidden';
+  })();
+
+  function ageVerify(isAdult) {
+    if (isAdult) {
+      sessionStorage.setItem('vapouk_age_verified', 'true');
+      document.getElementById('age-gate').classList.add('hidden');
+      document.body.style.overflow = '';
+      showCookieBanner();
+    } else {
+      document.getElementById('age-gate').classList.add('hidden');
+      const u = document.getElementById('underage-screen');
+      u.style.display = 'flex';
+      document.body.style.overflow = 'hidden';
+    }
+  }
+
+  /* ═══ COOKIE BANNER ═══ */
+  function showCookieBanner() {
+    if (!localStorage.getItem('vapouk_cookie_consent')) {
+      setTimeout(() => document.getElementById('cookie-banner').classList.remove('hidden'), 1500);
+    }
+  }
+
+  function cookieConsent(accepted) {
+    localStorage.setItem('vapouk_cookie_consent', accepted ? 'accepted' : 'declined');
+    document.getElementById('cookie-banner').classList.add('hidden');
+  }
+
+  /* ═══ MOBILE MENU ═══ */
+  function toggleMenu() {
+    document.getElementById('mobileMenu').classList.toggle('open');
+  }
+
+  document.addEventListener('click', function(e) {
+    const menu = document.getElementById('mobileMenu');
+    const hamburger = document.querySelector('.hamburger');
+    if (menu && hamburger && !menu.contains(e.target) && !hamburger.contains(e.target)) {
+      menu.classList.remove('open');
+    }
+  });
+
+  /* ═══ SCROLL REVEAL ═══ */
+  const revealObserver = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('visible');
+        revealObserver.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
+
+  document.querySelectorAll('.reveal').forEach(el => revealObserver.observe(el));
+  setTimeout(() => {
+    document.querySelectorAll('#hero .reveal').forEach(el => el.classList.add('visible'));
+  }, 100);
+
+  /* ═══ NAV SCROLL ═══ */
+  window.addEventListener('scroll', () => {
+    const nav = document.getElementById('navbar');
+    if (nav) nav.style.background = window.scrollY > 60 ? 'rgba(0,0,0,0.97)' : 'rgba(0,0,0,0.85)';
+  });
+</script>
+
+</body>
+</html>
